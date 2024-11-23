@@ -1,3 +1,3 @@
 https://kristen-schneider.github.io/ToysRUs
 
-https://sophie006liu.github.io/vegetal
+Cloned repo from: https://sophie006liu.github.io/vegetal
