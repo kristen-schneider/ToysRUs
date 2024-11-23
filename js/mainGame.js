@@ -48,7 +48,7 @@ const gameData = {
             "Anywhere will do...(I'm planning on leading an mutiny anyway)":
                 [5,["Cape", "Animal Print", "Overalls", "Band Tee"]],
             "Is there an opening for Ship Monkey? Or Parrot on Shoulder?":
-                [, ["Puka Shells", "Animal Print", "Overalls", "Boat Shoes"]]
+                [4, ["Puka Shells", "Animal Print", "Overalls", "Boat Shoes"]]
         }
     },
     "2": {
