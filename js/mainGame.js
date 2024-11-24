@@ -42,13 +42,13 @@ const gameData = {
             " I’ll let ye choose yer fate—what be yer job, eh?!",
         "choices": {
             "The one with the compass, please. I have ideas about places to be.":
-                [2,["Tracksuit", "Boat Shoes", "Rolex", "Cargo Pants", "Chucks", "Designer Bags", "Flannel", "Baseball Cap", "Turtlenecks"]],
+                [2,[]],
             "Head Chef! I make a mean bone-broth stew. Any bones will do.":
-                [3,["Colorful Patterns", "Classic Denim Jeans", "Flannel", "Baseball Cap", "Boat Shoes"]],
+                [3,[]],
             "Anywhere will do...(I'm planning on leading an mutiny anyway)":
-                [5,["Cape", "Animal Print", "Overalls", "Band Tee"]],
+                [5,[]],
             "Is there an opening for Ship Monkey? Or Parrot on Shoulder?":
-                [4, ["Puka Shells", "Animal Print", "Overalls", "Boat Shoes"]]
+                [4, []]
         }
     },
     "2": {
@@ -56,13 +56,13 @@ const gameData = {
             "but I won’t be makin’ ye walk the plank just yet. Where’d ye have in mind?",
         "choices": {
             "Treasure Island', DUH!":
-                [5,["Rolex", "Designer Bags", "Tracksuit", "Band Tee", "Cargo Pants", "Overalls", "Chucks", "Animal Print"]],
+                [5,[]],
             "Somewhere with lots of palm trees and sandy beaches...and rum.":
-                [5, ["Designer Bags", "Boat Shoes"]],
+                [5, []],
             "I didn't have that many ideas actually. Hoped the compass was one of those that pointed to what I desired most.":
-                [5, ["Baseball Cap", "Flannel", "Classic Denim Jeans", "Overalls", "Turtlenecks", "Animal Print", "Puka Shells"]],
+                [5, []],
             "BACK TO LAND!!!":
-                [5, ["Colorful Patterns", "Cape"]]
+                [5, []]
         }
     },
     "3": {
@@ -70,13 +70,13 @@ const gameData = {
             "Out o' curiosity, what kind o' grub can ye whip up... 'sides stew?",
         "choices": {
             "Anything you like, captain!":
-                [5,["Tracksuit", "Colorful Patterns", "Classic Denim Jeans", "Flannel", "Baseball Cap", "Cargo Pants", "Turtlenecks"]],
+                [5,[]],
             "I'm actually a Pastry Chef, by training; so I've been thinking a lot about nautical-pies.":
-                [5, ["Boat Shoes", "Cargo Pants", "Cape", "Flannel", "Chucks", "Animal Print"]],
+                [5, []],
             "Sushi, anyone?":
-                [5, ["Boat Shoes", "Tracksuit", "Designer Bags", "Rolex", "Animal Print"]],
+                [5, []],
             "Nah, just stew.":
-                [5, ["Cape", "Baseball Cap", "Overalls", "Colorful Patterns", "Band Tee", "Puka Shells"]]
+                [5, []]
         }
     },
     "4": {
@@ -84,13 +84,13 @@ const gameData = {
             " but I’ve got me eye on ye. Did ye bring anythin' aboard I should know about?.",
         "choices": {
             "Nothing but the clothes on my back, captain.":
-                [5,["Puka Shells", "Tracksuit", "Colorful Patterns", "Classic Denim Jeans", "Flannel", "Baseball Cap", "Cargo Pants", "Turtlenecks", "Rolex", "Overalls", "Chucks"]],
+                [5,[]],
             "Just a couple of bananas and seeds, in case I get hungry.":
-                [5, ["Boat Shoes", "Cargo Pants", "Puka Shells", "Baseball Cap", "Overalls", "Flannel", "Chucks", "Turtlenecks"]],
+                [5, []],
             "I've got a whole treasure chest of gold and jewels! Wanna see?":
-                [5, ["Puka Shells", "Animal Print", "Boat Shoes", "Cape", "Colorful Patterns"]],
+                [5, []],
             "That depends on what you think you should know about...":
-                [5, ["Cape", "Band Tee", "Boat Shoes", "Animal Print", "Rolex"]]
+                [5, []]
         }
     },
     "5": {
@@ -98,15 +98,42 @@ const gameData = {
             "An' remember our bargain...keep yer lips sealed.",
         "choices": {
             "Ay ay, Captain Lizard Neck!":
-            [0,["Boat Shoes", "Tracksuit", "Designer Bags", "Rolex", "Cargo Pants", "Chucks", "Flannel", "Baseball Cap", "Turtlenecks", "Classic Denim Jeans"]],
+            [6,[]],
             "*Finger Guns*...Wait, no! HAHAHAH sorry...I didn't mean to point those at you. I'll put them away now.":
-            [0,["Puka Shells", "Overalls", "Baseball Cap", "Chucks"]],
+            [6,[]],
             "Sure! Before you go...which way is the deck?":
-            [0,["Colorful Patterns", "Animal Print", "Puka Shells", "Overalls"]],
+            [6,[]],
             "Later. (I've got a mutiny to plan)":
-            [0,["Band Tee", "Cape", "Animal Print", "Rolex", "Turtlenecks"]]
+            [6,[]]
         }
     },
+    "6": {
+        "text": "The ship sets sail, and you find yourself on the open sea. What's the first move?",
+        "choices": {
+            "Find out where everyone else is at. I want to meet the crew!":
+            [7,[]],
+            "Find out where Captain's quarters are.":
+            [7,[]],
+            "Find out where they keep the rum.":
+            [7,[]],
+            "Probably best just to get to work.":
+            [7,[]]
+        }
+    },
+    "7": {
+        "text": "On your way, you run into a crew member who pulls you aside. What do you do?",
+        "choices": {
+            "Join in the work, and get to know the crew.":
+            [8,[]],
+            "Find the head chef and offer to help.":
+            [8,[]],
+            "Find the captain and offer to help.":
+            [8,[]],
+            "Find the rum.":
+            [8,[]]
+        }
+    },
+
     // "X": {
     //     "text": "",
     //     "choices": {
