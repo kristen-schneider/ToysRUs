@@ -418,7 +418,7 @@ function revealMostSelectedVegetable() {
     }
     console.log(maxVeggie);
     const storyText = document.getElementById('story-text');
-    storyText.textContent = `You are a ${maxVeggie}`;
+    storyText.textContent = `We are ${maxVeggie}`;
     document.getElementById('choices').style.display = 'none';
 }
 
