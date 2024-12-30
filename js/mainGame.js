@@ -13,6 +13,7 @@ const personalities = {
 const gameData = {
     "1": {
         "text": "Pick a vacation.",
+        "image" : "smaller_images/vacation.jpg",
         "choices": {
             "TROPICAL. Give me a beach, a drink, and a book.":
                 [2,["Gorls", "Gorls", "Opposites", "Twins", "Teammates"]],
@@ -26,6 +27,7 @@ const gameData = {
     },
     "2": {
         "text": "Pick a meal.",
+        "image" : "smaller_images/meal.jpg",
         "choices": {
             "Breakfast burrito, fresh fruit, and a coffee.":
                 [3,["Gorls", "Gorls", "Twins", "Twins", "Teammates"]],
@@ -39,6 +41,7 @@ const gameData = {
     },
     "3": {
         "text": "Pick a show to watch with me.",
+        "image" : "smaller_images/show.jpg",
         "choices": {
             "Something funny, like The Office.":
                 [4,["Gorls", "End Game", "Twins", "Twins", "Teammates", "Teammates", "Adorable"]],
@@ -52,6 +55,7 @@ const gameData = {
     },
     "4": {
         "text": "Pick a favorite episode from The Office.",
+        "image" : "smaller_images/office.jpg",
         "choices": {
             "The one where Meredith gets hit by Michael's car, and also rabies.":
                 [8,["Confused", "(step) brothers", "(step) brothers"]],
@@ -65,12 +69,13 @@ const gameData = {
     },
     "5": {
         "text": "What kind of documentary...?",
+        "image" : "smaller_images/doc.jpg",
         "choices": {
             "True crime (e.g. The Staircase, Abducted in Plain Sight, etc.)":
                 [8,["Twins"]],
-            "Historical events (e.g. Chernobyl, The Crown, etc.":
+            "Historical events (e.g. Chernobyl, Apollo II, etc.":
                 [8,["Gorls", "Twins", "Adorable"]],
-            "Cultural or travel (e.g. The Amazing Race, Somebody Feed Phil, etc.)":
+            "Cultural or travel (e.g. Down To Earth, Somebody Feed Phil, etc.)":
                 [8,["Opposites", "End Game", "End Game", "Mentor/Mentee", "Mentor/Mentee", "Confused", "Confused", "(step) brothers"]],
             "Science or nature (e.g. Planet Earth, The Universe, etc.)":
                 [8,["Mentor/Mentee", "Twins", "(step) brothers", "(step) brothers", "Teammates", "Adorable"]]
@@ -78,12 +83,13 @@ const gameData = {
     },
     "6": {
         "text": "What kind of reality TV...?",
+        "image" : "smaller_images/realtv.jpg",
         "choices": {
             "Love Island, Love is Blind, or any other dating show.":
                 [8,["Gorls", "Gorls", "Opposites", "Opposites"]],
             "Competition shows like Survivor or American Ninja Warrior.":
                 [8,["Confused", "(step) brothers", "(step) brothers"]],
-            "Travel or food shows like the Great British Baking Show or The Amazing Race.":
+            "Travel or food shows like the Great British Bake Off or The Amazing Race.":
                 [8,["End Game", "End Game", "Mentor/Mentee", "Confused", "(step) brothers", "Teammates", "Adorable", "Adorable"]],
             "Singing or talent shows like The Voice or America's Got Talent.":
                 [8,["Gorls", "Gorls", "Confused", "Adorable"]]
@@ -91,6 +97,7 @@ const gameData = {
     },
     "7": {
         "text": "Pick a genre/category.",
+        "image" : "smaller_images/choose.jpg",
         "choices": {
             "Historical drama.":
                 [8,["Gorls", "End Game", "Twins", "Adorable", "Adorable"]],
@@ -104,6 +111,7 @@ const gameData = {
     },
     "8": {
         "text": "Pick a state in which you would NEVER want to live.",
+        "image" : "smaller_images/state.jpg",
         "choices": {
             "California":
                 [9,["", "Opposites", "Mentor/Mentee", "Mentor/Mentee", "Confused"]],
@@ -117,6 +125,7 @@ const gameData = {
     },
     "9": {
         "text": "A green flag of YOURS is...",
+        "image" : "smaller_images/green.jpg",
         "choices": {
             "You have actually read the terms and conditions.":
                 [10,["Opposites", "Mentor/Mentee", "Mentor/Mentee", "Confused", "Teammates"]],
@@ -130,6 +139,7 @@ const gameData = {
     },
     "10": {
         "text": "A red flag of YOURS is...",
+        "image" : "smaller_images/red.jpg",
         "choices": {
             "You are allergic to dogs.":
                 [11,["Opposites", "Opposites", "Confused", "(step) brothers"]],
@@ -143,6 +153,7 @@ const gameData = {
     },
     "11": {
         "text": "A green flag of MINE (kristen) is...",
+        "image" : "smaller_images/greenk.jpg",
         "choices": {
             "I always make my bed in the morning.":
                 [12,["End Game", "Mentor/Mentee", "Confused", "(step) brothers"]],
@@ -156,6 +167,7 @@ const gameData = {
     },
     "12": {
         "text": "A red flag of MINE (kristen) is...",
+        "image" : "smaller_images/redk.jpg",
         "choices": {
             "My sense of direction is terrible.":
                 [13,["Opposites", "Mentor/Mentee", "Mentor/Mentee", "Confused", "Twins", "Teammates", "Adorable"]],
@@ -163,12 +175,13 @@ const gameData = {
                 [13,["Gorls", "Opposites", "End Game", "Mentor/Mentee", "(step) brothers", "Adorable"]],
             "I gave you a first impression that I didn't like you.":
                 [13,["End Game", "End Game", "Confused", "Confused", "Twins"]],
-            "I am a slow eater.":
+            "I am a Steelers Fan.":
                 [13,["Gorls", "(step) brothers", "(step) brothers", "Teammates", "Teammates", "Adorable"]]
         }
     },
     "13": {
         "text": "If you were given a free ticket to outer space, would you take it?",
+        "image" : "smaller_images/space.jpg",
         "choices": {
             "Yes.":
                 [14,["Opposites", "Opposites", "Mentor/Mentee", "Confused", "Confused", "(step) brothers", "(step) brothers", "Teammates"]],
@@ -178,6 +191,7 @@ const gameData = {
     },
     "14": {
         "text": "What color scheme is your bedroom?",
+        "image" : "smaller_images/color.jpg",
         "choices": {
             "Gilmore Girls (subdued reds, browns, oranges, and yellows).":
                 [15,["End Game", "End Game", "End Game", "Twins"]],
@@ -191,6 +205,7 @@ const gameData = {
     },
     "15": {
         "text": "Pick a season",
+        "image" : "smaller_images/season.jpg",
         "choices": {
             "Summer.":
                 [0,["Gorls", "Gorls", "End Game", "End Game", "Opposites", "Opposites", "Adorable"]],
