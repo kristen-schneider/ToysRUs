@@ -1,15 +1,3 @@
-const personalities = {
-    "Opposites": 0,
-    "End Game": 0,
-    "Mentor/Mentee": 0,
-    "Confused": 0,
-    "Twins": 0,
-    "Gorls": 0,
-    "(step) brothers": 0,
-    "Teammates": 0,
-    "Adorable": 0
-};
-
 const gameData = {
     "1": {
         "text": "Pick a vacation.",
@@ -219,29 +207,47 @@ const gameData = {
     },
 };
 
+const personalities = {
+    "Opposites": 0,
+    "End Game": 0,
+    "Mentor/Mentee": 0,
+    "Confused": 0,
+    "Twins": 0,
+    "Gorls": 0,
+    "(step) brothers": 0,
+    "Teammates": 0,
+    "Adorable": 0
+};
+
 let currentState = 1;
 
 function renderState(state) {
-    console.log("b");
     const storyText = document.getElementById('story-text');
+    const storyImage = document.getElementById('story-image');
     const choicesContainer = document.getElementById('choices');
 
-    storyText.textContent = gameData[state].text;
-    choicesContainer.innerHTML = '';
+    const img = new Image();
+    img.src = gameData[state].image;
 
-    for (const [choice, info] of Object.entries(gameData[state].choices)) {
-        const button = document.createElement('button');
-        button.textContent = choice;
-        button.className = 'choice-button';
-        let nextState = info[0];
-        button.onclick = () => changeState(nextState, info[1]); //each time you change state you update the personalities dictionary
-        choicesContainer.appendChild(button);
-    }
+    img.onload = () => {
+        storyImage.src = img.src;
+        storyText.textContent = gameData[state].text;
+        choicesContainer.innerHTML = '';
+
+        for (const [choice, info] of Object.entries(gameData[state].choices)) {
+            const button = document.createElement('button');
+            button.textContent = choice;
+            button.className = 'choice-button';
+            let nextState = info[0];
+            button.onclick = () => changeState(nextState, info[1]); //each time you change state you update the personalities dictionary
+            choicesContainer.appendChild(button);
+        }
+    };
 }
 
+
 function changeState(newState, selectedPersonalities) {
-    console.log("changing states");
-    console.log(personalities); 
+    // console.log(personalities);
     selectedPersonalities.forEach(personality => {
         personalities[personality]++;
     });
@@ -254,32 +260,129 @@ function changeState(newState, selectedPersonalities) {
         renderState(currentState);
     }
 }
-
 function revealMostSelectedVegetable() {
-    console.log("calculating fate");
     let maxCount = 0;
-    let maxLabel = '';
+    let maxVeggie = '';
 
-    for (const [vegetable, count] of Object.entries(personalities)){
+    for (const [vegetable, count] of Object.entries(personalities)) {
         if (count > maxCount) {
             maxCount = count;
-            maxLabel = vegetable;
+            maxVeggie = vegetable;
         }
     }
-    console.log(maxLabel);
-    const storyText = document.getElementById('story-text');
-    storyText.textContent = `We are ${maxLabel}`;
-    document.getElementById('choices').style.display = 'none';
+
+    const storyImage = document.getElementById('story-image');
+    const text = document.getElementById('story-text');
+    const choicesContainer = document.getElementById('choices');
+    // const veggieImagePath = `smaller_images/id_cards/${maxVeggie}.png`;
+    const veggieImagePath = `smaller_images/id_cards/placeholder.png`;
+
+
+    // Preload the image
+    const img = new Image();
+    img.src = veggieImagePath;
+    img.className = 'responsive-image';
+
+    // Create the share button
+    const shareButton = document.createElement('button');
+    shareButton.textContent = 'Share the game with Friends';
+    shareButton.className = 'choice-button';
+
+    // Once the image is loaded, update the DOM
+    img.onload = () => {
+        storyImage.style.display = 'none';
+        choicesContainer.style.display = 'none';
+
+        text.textContent = "We are...";
+        text.appendChild(img);
+
+        // Share button functionality
+        shareButton.onclick = () => {
+            const shareMessage = `Check out my Veggie ID! You can create yours at https://sophie006liu.github.io/vegetal/`;
+            navigator.clipboard.writeText(shareMessage).then(() => {
+                alert('Link copied to clipboard!');
+            }).catch(err => {
+                alert('Failed to copy link. Please try again.');
+            });
+        };
+
+        text.appendChild(shareButton);
+    };
 }
+
 
 function startGame() {
     document.querySelector('.title').style.display = 'none';
+    document.getElementById('homescreen').style.display = 'none';
     document.querySelector('.start-button').style.display = 'none';
     document.getElementById('game-container').style.display = 'block';
     renderState(currentState);
 }
 
 window.onload = () => {
-    console.log("e");
     renderState(currentState);
-};
+}
+
+// function renderState(state) {
+//     console.log("b");
+//     const storyImage = document.getElementById('story-image');
+//     const storyText = document.getElementById('story-text');
+//     const choicesContainer = document.getElementById('choices');
+//
+//     storyText.textContent = gameData[state].text;
+//     choicesContainer.innerHTML = '';
+//
+//     for (const [choice, info] of Object.entries(gameData[state].choices)) {
+//         const button = document.createElement('button');
+//         button.textContent = choice;
+//         button.className = 'choice-button';
+//         let nextState = info[0];
+//         button.onclick = () => changeState(nextState, info[1]); //each time you change state you update the personalities dictionary
+//         choicesContainer.appendChild(button);
+//     }
+// }
+//
+// function changeState(newState, selectedPersonalities) {
+//     console.log("changing states");
+//     console.log(personalities);
+//     selectedPersonalities.forEach(personality => {
+//         personalities[personality]++;
+//     });
+//
+//     currentState = newState;
+//
+//     if (currentState === 0) {
+//         revealMostSelectedVegetable();
+//     } else {
+//         renderState(currentState);
+//     }
+// }
+//
+// function revealMostSelectedVegetable() {
+//     console.log("calculating fate");
+//     let maxCount = 0;
+//     let maxLabel = '';
+//
+//     for (const [vegetable, count] of Object.entries(personalities)){
+//         if (count > maxCount) {
+//             maxCount = count;
+//             maxLabel = vegetable;
+//         }
+//     }
+//     console.log(maxLabel);
+//     const storyText = document.getElementById('story-text');
+//     storyText.textContent = `We are ${maxLabel}`;
+//     document.getElementById('choices').style.display = 'none';
+// }
+//
+// function startGame() {
+//     document.querySelector('.title').style.display = 'none';
+//     document.querySelector('.start-button').style.display = 'none';
+//     document.getElementById('game-container').style.display = 'block';
+//     renderState(currentState);
+// }
+//
+// window.onload = () => {
+//     console.log("e");
+//     renderState(currentState);
+// };
