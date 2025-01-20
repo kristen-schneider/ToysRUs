@@ -1,49 +1,87 @@
 const gameData = {
     "1": {
-        "text": "Pick a vacation.",
-        "image" : "smaller_images/vacation.jpg",
+        "text": "<3",
+        "image" : "smaller_images/homepage.png",
         "choices": {
-            "TROPICAL. Give me a beach, a drink, and a book.":
-                [2,["Gorls", "Gorls", "Opposites", "Twins", "Teammates"]],
-            "CITY. I want to see the sites, find a vintage cardigan, and eat at the local hot spots.":
-                [2,["Gorls", "Opposites", "Opposites", "End Game", "Mentor/Mentee", "Confused", "(step) brothers"]],
-            "MOUNTAINS. I want to hike, breathe in the fresh air, and take in the views.":
-                [2,["Mentor/Mentee", "Mentor/Mentee", "Confused", "Confused", "(step) brothers", "Teammates", "Adorable", "Adorable", "Adorable"]],
-            "ROAD TRIP. I want to see it all and I have a playlist for each leg of the trip.":
-                [2,["End Game", "End Game", "Twins", "Twins", "(step) brothers", "Teammates"]]
+            "Let's get started.":
+                [2,[]],
+            "Cancel.":
+                [0,[]]
         }
     },
     "2": {
-        "text": "Pick a meal.",
-        "image" : "smaller_images/meal.jpg",
+        "text": "Let's start with something simple. How do you feel about Valentine's Day?",
+        "image" : "smaller_images/homepage.png",
         "choices": {
-            "Breakfast burrito, fresh fruit, and a coffee.":
-                [3,["Gorls", "Gorls", "Twins", "Twins", "Teammates"]],
-            "A big potluck with lots of variety!":
-                [3,["Opposites", "Opposites", "Opposites", "End Game", "Mentor/Mentee", "Mentor/Mentee", "Confused", "Confused", "(step) brothers", "Adorable"]],
-            "Spaghetti and meatballs, garlic bread, a salad, and a glass of wine.":
-                [3,["End Game", "End Game", "(step) brothers", "Adorable"]],
-            "A big, juicy burger with fries and a milkshake.":
-                [3,["Gorls", "Mentor/Mentee", "Confused", "Twins", "(step) brothers", "Teammates", "Teammates", "Adorable", "Adorable"]]
+            "Hate, hate, hate. Double hate. Loathe entirely.":
+                [3,[]],
+            "Indifferent. The idea is nice, but it can get a little over the top.":
+                [3,[]],
+            "Awwww. I think it's nice. The world could use more love.":
+                [3,[]],
+            "I think it might be my favorite holiday. It's just so cute and romantic.":
+                [3,[]]
         }
     },
     "3": {
-        "text": "Pick a show to watch with me.",
-        "image" : "smaller_images/show.jpg",
+        "text": "Cool cool cool cool. Next, what kind of timing are we thinking for this date?",
+        "image" : "smaller_images/homepage.png",
         "choices": {
-            "Something funny, like The Office.":
-                [4,["Gorls", "End Game", "Twins", "Twins", "Teammates", "Teammates", "Adorable"]],
-            "Something informative, like a documentary.":
-                [5,["Mentor/Mentee", "Mentor/Mentee", "Confused", "Twins", "(step) brothers", "(step) brothers"]],
-            "Something mindless, like some reality TV.":
-                [6,["Gorls", "Gorls", "Opposites", "Opposites", "Opposites", "Confused", "Confused", "Teammates"]],
-            "Something new, or something that neither of us have seen before.":
-                [7,["End Game", "End Game", "Mentor/Mentee", "(step) brothers", "Adorable", "Adorable"]]
+            "6AM-12PM! I love an early morning. I was thinking a sunrise activity could be nice.":
+                [4,[]],
+            "10AM-4PM. A classic lunch date with a little bit of exploring.":
+                [4,[]],
+            "2PM-8PM. Something later on, but not too late, ya know?":
+                [4,[]],
+            "6PM-MIDNIGHT. I heard your favorite painting is called 'Nighthawks'.":
+                [4,[]]
         }
     },
     "4": {
-        "text": "Pick a favorite episode from The Office.",
-        "image" : "smaller_images/office.jpg",
+        "text": "Roger. And what kind of non-food activity would you most like to do?",
+        "image" : "smaller_images/homepage.png",
+        "choices": {
+            "An active activity. A run, some pickle ball, a hike, etc.":
+                [5,[]],
+            "Let's get artsy. A museum, a gallery, a painting class, etc.":
+                [5,[]],
+            "A show! Live music, a play, a movie, etc.":
+                [5,[]],
+            "Something outside for sure. Maybe a walk, a visit to the park, etc.":
+                [5,[]]
+        }
+    },
+    "5": {
+        "text": "Right on. And for the food portion of the date, what are you thinking?",
+        "image" : "smaller_images/homepage.png",
+        "choices": {
+            "Let's pack something for our day. I like the idea of a picnic or some snacks on-the-go.":
+                [6,[]],
+            "Something very casual--maybe we stop in a cute cafe for a bite and a coffee?":
+                [6,[]],
+            "I'm thinking just drinks might be fun. Gives us more time to yap.":
+                [6,[]],
+            "A proper Valentine's Day dinner. I'm thinking a nice restaurant with a reservation.":
+                [6,[]]
+        }
+    },
+    "6": {
+        "text": "SOLID CHOICE. Let's do 3 rapid fire (seemingly unimportant) questions.\n1: Pick a color scheme",
+        "image" : "smaller_images/homepage.png",
+        "choices": {
+            "":
+                [7,[]],
+            "":
+                [7,[]],
+            "":
+                [7,[]],
+            "":
+                [7,[]]
+        }
+    },
+    "7": {
+        "text": "2: Pick a favorite episode from The Office.",
+        "image" : "smaller_images/office.png",
         "choices": {
             "The one where Meredith gets hit by Michael's car, and also rabies.":
                 [8,["Confused", "(step) brothers", "(step) brothers"]],
@@ -55,51 +93,9 @@ const gameData = {
                 [8,["Gorls", "End Game", "Confused", "Confused", "Teammates", "Teammates", "Teammates"]]
         }
     },
-    "5": {
-        "text": "What kind of documentary...?",
-        "image" : "smaller_images/doc.jpg",
-        "choices": {
-            "True crime (e.g. The Staircase, Abducted in Plain Sight, etc.)":
-                [8,["Twins"]],
-            "Historical events (e.g. Chernobyl, Apollo II, etc.":
-                [8,["Gorls", "Twins", "Adorable"]],
-            "Cultural or travel (e.g. Down To Earth, Somebody Feed Phil, etc.)":
-                [8,["Opposites", "End Game", "End Game", "Mentor/Mentee", "Mentor/Mentee", "Confused", "Confused", "(step) brothers"]],
-            "Science or nature (e.g. Planet Earth, The Universe, etc.)":
-                [8,["Mentor/Mentee", "Twins", "(step) brothers", "(step) brothers", "Teammates", "Adorable"]]
-        }
-    },
-    "6": {
-        "text": "What kind of reality TV...?",
-        "image" : "smaller_images/realtv.jpg",
-        "choices": {
-            "Love Island, Love is Blind, or any other dating show.":
-                [8,["Gorls", "Gorls", "Opposites", "Opposites"]],
-            "Competition shows like Survivor or American Ninja Warrior.":
-                [8,["Confused", "(step) brothers", "(step) brothers"]],
-            "Travel or food shows like the Great British Bake Off or The Amazing Race.":
-                [8,["End Game", "End Game", "Mentor/Mentee", "Confused", "(step) brothers", "Teammates", "Adorable", "Adorable"]],
-            "Singing or talent shows like The Voice or America's Got Talent.":
-                [8,["Gorls", "Gorls", "Confused", "Adorable"]]
-        }
-    },
-    "7": {
-        "text": "Pick a genre/category.",
-        "image" : "smaller_images/choose.jpg",
-        "choices": {
-            "Historical drama.":
-                [8,["Gorls", "End Game", "Twins", "Adorable", "Adorable"]],
-            "Comedy.":
-                [8,["Gorls", "End Game", "Twins", "Teammates", "Teammates"]],
-            "Sci-fi or fantasy.":
-                [8,["Opposites", "Opposites", "Mentor/Mentee", "Mentor/Mentee", "Confused", "Confused", "(step) brothers"]],
-            "Action.":
-                [8,["Confused", "(step) brothers", "(step) brothers", "Teammates"]]
-        }
-    },
     "8": {
-        "text": "Pick a state in which you would NEVER want to live.",
-        "image" : "smaller_images/state.jpg",
+        "text": "3: Pick a state in which you would NEVER want to live.",
+        "image" : "smaller_images/state.png",
         "choices": {
             "California":
                 [9,["", "Opposites", "Mentor/Mentee", "Mentor/Mentee", "Confused"]],
@@ -112,8 +108,8 @@ const gameData = {
         }
     },
     "9": {
-        "text": "A green flag of YOURS is...",
-        "image" : "smaller_images/green.jpg",
+        "text": "Very interesting.Now let's switch to more important things.\nA green flag of YOURS is...",
+        "image" : "smaller_images/green.png",
         "choices": {
             "You have actually read the terms and conditions.":
                 [10,["Opposites", "Mentor/Mentee", "Mentor/Mentee", "Confused", "Teammates"]],
@@ -127,7 +123,7 @@ const gameData = {
     },
     "10": {
         "text": "A red flag of YOURS is...",
-        "image" : "smaller_images/red.jpg",
+        "image" : "smaller_images/red.png",
         "choices": {
             "You are allergic to dogs.":
                 [11,["Opposites", "Opposites", "Confused", "(step) brothers"]],
@@ -141,7 +137,7 @@ const gameData = {
     },
     "11": {
         "text": "A green flag of MINE (kristen) is...",
-        "image" : "smaller_images/greenk.jpg",
+        "image" : "smaller_images/greenk.ong",
         "choices": {
             "I always make my bed in the morning.":
                 [12,["End Game", "Mentor/Mentee", "Confused", "(step) brothers"]],
@@ -155,7 +151,7 @@ const gameData = {
     },
     "12": {
         "text": "A red flag of MINE (kristen) is...",
-        "image" : "smaller_images/redk.jpg",
+        "image" : "smaller_images/redk.png",
         "choices": {
             "My sense of direction is terrible.":
                 [13,["Opposites", "Mentor/Mentee", "Mentor/Mentee", "Confused", "Twins", "Teammates", "Adorable"]],
@@ -169,7 +165,7 @@ const gameData = {
     },
     "13": {
         "text": "If you were given a free ticket to outer space, would you take it?",
-        "image" : "smaller_images/space.jpg",
+        "image" : "smaller_images/space.png",
         "choices": {
             "Yes.":
                 [14,["Opposites", "Opposites", "Mentor/Mentee", "Confused", "Confused", "(step) brothers", "(step) brothers", "Teammates"]],
@@ -178,33 +174,29 @@ const gameData = {
         }
     },
     "14": {
-        "text": "What color scheme is your bedroom?",
-        "image" : "smaller_images/color.jpg",
+        "text": "Do you believe in ghosts?",
+        "image" : "smaller_images/homepage.png",
         "choices": {
-            "Gilmore Girls (subdued reds, browns, oranges, and yellows).":
-                [15,["End Game", "End Game", "End Game", "Twins"]],
-            "Beige Mom (whites and browns).":
-                [15,["Gorls", "Gorls", "Gorls", "Mentor/Mentee", "Twins", "(step) brothers", "Teammates", "Adorable", "Adorable"]],
-            "Pop Art (bright yellows, pinks, greens, and oranges).":
-                [15,["Opposites", "Mentor/Mentee", "Confused", "Confused", "Confused", "Twins", "Teammates", "Adorable"]],
-            "Vampiric (blacks, whites, reds).":
-                [15,["Opposites", "Opposites", "(step) brothers", "(step) brothers", "Teammates"]]
+            "Yes.":
+                [15,["Opposites", "Opposites", "Mentor/Mentee", "Confused", "Confused", "(step) brothers", "(step) brothers", "Teammates"]],
+            "No.":
+                [15,["Gorls", "End Game", "Twins", "Twins", "Adorable"]],
         }
     },
     "15": {
-        "text": "Pick a season",
-        "image" : "smaller_images/season.jpg",
+        "text": "FINALLY. What is the best way to end a date?",
+        "image" : "smaller_images/homepage.png",
         "choices": {
-            "Summer.":
-                [0,["Gorls", "Gorls", "End Game", "End Game", "Opposites", "Opposites", "Adorable"]],
-            "Spring.":
-                [0,["Confused", "Teammates", "Teammates", "Adorable"]],
-            "Fall.":
-                [0,["Gorls", "End Game", "Twins", "Twins", "(step) brothers", "Teammates", "Adorable"]],
-            "Winter.":
-                [0,["Mentor/Mentee", "Mentor/Mentee", "Confused", "Confused", "Twins", "(step) brothers", "(step) brothers"]]
+            "A bubble bath.\nNot together...OBVIOUSLY...\nbut I am going to take one in my bathtub,\nand you can take one in yours.":
+                [0,[]],
+            "A secret handshake.":
+                [0,[]],
+            "Hanging out with friends and debriefing.":
+                [0,[]],
+            "With plans for another!":
+                [0,[]]
         }
-    },
+    }
 };
 
 const personalities = {
@@ -221,130 +213,33 @@ const personalities = {
 
 let currentState = 1;
 
-function renderState(state) {
-    const storyText = document.getElementById('story-text');
-    const storyImage = document.getElementById('story-image');
-    const choicesContainer = document.getElementById('choices');
-
-    const img = new Image();
-    img.src = gameData[state].image;
-
-    img.onload = () => {
-        storyImage.src = img.src;
-        storyText.textContent = gameData[state].text;
-        choicesContainer.innerHTML = '';
-
-        for (const [choice, info] of Object.entries(gameData[state].choices)) {
-            const button = document.createElement('button');
-            button.textContent = choice;
-            button.className = 'choice-button';
-            let nextState = info[0];
-            button.onclick = () => changeState(nextState, info[1]); //each time you change state you update the personalities dictionary
-            choicesContainer.appendChild(button);
-        }
-    };
-}
-
-
-function changeState(newState, selectedPersonalities) {
-    // console.log(personalities);
-    selectedPersonalities.forEach(personality => {
-        personalities[personality]++;
-    });
-
-    currentState = newState;
-
-    if (currentState === 0) {
-        revealMostSelectedVegetable();
-    } else {
-        renderState(currentState);
-    }
-}
-function revealMostSelectedVegetable() {
-    let maxCount = 0;
-    let maxVeggie = '';
-
-    for (const [vegetable, count] of Object.entries(personalities)) {
-        if (count > maxCount) {
-            maxCount = count;
-            maxVeggie = vegetable;
-        }
-    }
-
-    const storyImage = document.getElementById('story-image');
-    const text = document.getElementById('story-text');
-    const choicesContainer = document.getElementById('choices');
-    // const veggieImagePath = `smaller_images/id_cards/${maxVeggie}.png`;
-    const veggieImagePath = `smaller_images/id_cards/placeholder.png`;
-
-
-    // Preload the image
-    const img = new Image();
-    img.src = veggieImagePath;
-    img.className = 'responsive-image';
-
-    // Create the share button
-    const shareButton = document.createElement('button');
-    shareButton.textContent = 'Share the game with Friends';
-    shareButton.className = 'choice-button';
-
-    // Once the image is loaded, update the DOM
-    img.onload = () => {
-        storyImage.style.display = 'none';
-        choicesContainer.style.display = 'none';
-
-        text.textContent = "We are...";
-        text.appendChild(img);
-
-        // Share button functionality
-        shareButton.onclick = () => {
-            const shareMessage = `Check out my Veggie ID! You can create yours at https://sophie006liu.github.io/vegetal/`;
-            navigator.clipboard.writeText(shareMessage).then(() => {
-                alert('Link copied to clipboard!');
-            }).catch(err => {
-                alert('Failed to copy link. Please try again.');
-            });
-        };
-
-        text.appendChild(shareButton);
-    };
-}
-
-
-function startGame() {
-    document.querySelector('.title').style.display = 'none';
-    document.getElementById('homescreen').style.display = 'none';
-    document.querySelector('.start-button').style.display = 'none';
-    document.getElementById('game-container').style.display = 'block';
-    renderState(currentState);
-}
-
-window.onload = () => {
-    renderState(currentState);
-}
-
 // function renderState(state) {
-//     console.log("b");
-//     const storyImage = document.getElementById('story-image');
 //     const storyText = document.getElementById('story-text');
+//     const storyImage = document.getElementById('story-image');
 //     const choicesContainer = document.getElementById('choices');
 //
-//     storyText.textContent = gameData[state].text;
-//     choicesContainer.innerHTML = '';
+//     const img = new Image();
+//     img.src = gameData[state].image;
 //
-//     for (const [choice, info] of Object.entries(gameData[state].choices)) {
-//         const button = document.createElement('button');
-//         button.textContent = choice;
-//         button.className = 'choice-button';
-//         let nextState = info[0];
-//         button.onclick = () => changeState(nextState, info[1]); //each time you change state you update the personalities dictionary
-//         choicesContainer.appendChild(button);
-//     }
+//     img.onload = () => {
+//         storyImage.src = img.src;
+//         storyText.textContent = gameData[state].text;
+//         choicesContainer.innerHTML = '';
+//
+//         for (const [choice, info] of Object.entries(gameData[state].choices)) {
+//             const button = document.createElement('button');
+//             button.textContent = choice;
+//             button.className = 'choice-button';
+//             let nextState = info[0];
+//             button.onclick = () => changeState(nextState, info[1]); //each time you change state you update the personalities dictionary
+//             choicesContainer.appendChild(button);
+//         }
+//     };
 // }
 //
+//
 // function changeState(newState, selectedPersonalities) {
-//     console.log("changing states");
-//     console.log(personalities);
+//     // console.log(personalities);
 //     selectedPersonalities.forEach(personality => {
 //         personalities[personality]++;
 //     });
@@ -357,32 +252,129 @@ window.onload = () => {
 //         renderState(currentState);
 //     }
 // }
-//
 // function revealMostSelectedVegetable() {
-//     console.log("calculating fate");
 //     let maxCount = 0;
-//     let maxLabel = '';
+//     let maxVeggie = '';
 //
-//     for (const [vegetable, count] of Object.entries(personalities)){
+//     for (const [vegetable, count] of Object.entries(personalities)) {
 //         if (count > maxCount) {
 //             maxCount = count;
-//             maxLabel = vegetable;
+//             maxVeggie = vegetable;
 //         }
 //     }
-//     console.log(maxLabel);
-//     const storyText = document.getElementById('story-text');
-//     storyText.textContent = `We are ${maxLabel}`;
-//     document.getElementById('choices').style.display = 'none';
+//
+//     const storyImage = document.getElementById('story-image');
+//     const text = document.getElementById('story-text');
+//     const choicesContainer = document.getElementById('choices');
+//     const veggieImagePath = `smaller_images/id_cards/${maxVeggie}.png`;
+//     // const veggieImagePath = `smaller_images/id_cards/placeholder.png`;
+//
+//
+//     // Preload the image
+//     const img = new Image();
+//     img.src = veggieImagePath;
+//     img.className = 'responsive-image';
+//
+//     // Create the share button
+//     const shareButton = document.createElement('button');
+//     shareButton.textContent = 'Share the game with Friends';
+//     shareButton.className = 'choice-button';
+//
+//     // Once the image is loaded, update the DOM
+//     img.onload = () => {
+//         storyImage.style.display = 'none';
+//         choicesContainer.style.display = 'none';
+//
+//         text.textContent = "We are...";
+//         text.appendChild(img);
+//
+//         // Share button functionality
+//         shareButton.onclick = () => {
+//             const shareMessage = `Check out my Veggie ID! You can create yours at https://sophie006liu.github.io/vegetal/`;
+//             navigator.clipboard.writeText(shareMessage).then(() => {
+//                 alert('Link copied to clipboard!');
+//             }).catch(err => {
+//                 alert('Failed to copy link. Please try again.');
+//             });
+//         };
+//
+//         text.appendChild(shareButton);
+//     };
 // }
+//
 //
 // function startGame() {
 //     document.querySelector('.title').style.display = 'none';
+//     document.getElementById('homescreen').style.display = 'none';
 //     document.querySelector('.start-button').style.display = 'none';
 //     document.getElementById('game-container').style.display = 'block';
 //     renderState(currentState);
 // }
 //
 // window.onload = () => {
-//     console.log("e");
 //     renderState(currentState);
-// };
+// }
+
+function renderState(state) {
+    console.log("b");
+    const storyImage = document.getElementById('story-image');
+    const storyText = document.getElementById('story-text');
+    const choicesContainer = document.getElementById('choices');
+
+    storyText.textContent = gameData[state].text;
+    choicesContainer.innerHTML = '';
+
+    for (const [choice, info] of Object.entries(gameData[state].choices)) {
+        const button = document.createElement('button');
+        button.textContent = choice;
+        button.className = 'choice-button';
+        let nextState = info[0];
+        button.onclick = () => changeState(nextState, info[1]); //each time you change state you update the personalities dictionary
+        choicesContainer.appendChild(button);
+    }
+}
+
+function changeState(newState, selectedPersonalities) {
+    console.log("changing states");
+    console.log(personalities);
+    selectedPersonalities.forEach(personality => {
+        personalities[personality]++;
+    });
+
+    currentState = newState;
+
+    if (currentState === 0) {
+        revealMostSelectedVegetable();
+    } else {
+        renderState(currentState);
+    }
+}
+
+function revealMostSelectedVegetable() {
+    console.log("calculating fate");
+    let maxCount = 0;
+    let maxLabel = '';
+
+    for (const [vegetable, count] of Object.entries(personalities)){
+        if (count > maxCount) {
+            maxCount = count;
+            maxLabel = vegetable;
+        }
+    }
+    console.log(maxLabel);
+    const storyText = document.getElementById('story-text');
+    storyText.textContent = `We are ${maxLabel}`;
+    document.getElementById('choices').style.display = 'none';
+}
+
+function startGame() {
+    document.querySelector('.title').style.display = 'none';
+    document.querySelector('.start-button').style.display = 'none';
+    document.getElementById('game-container').style.display = 'block';
+    renderState(currentState);
+}
+
+window.onload = () => {
+    console.log("e");
+    renderState(currentState);
+};
