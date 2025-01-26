@@ -43,7 +43,7 @@ const gameData = {
             "Explore tide pools and collect shells": [0,["Onion", "Bitter Melon", ]],
             "Read the book you've been eyeing": [0,["Pumpkin", "Broccoli", "Kale"]]
         }
-    }, 
+    },
     "0" : {
 
     }

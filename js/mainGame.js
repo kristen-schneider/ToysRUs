@@ -14,13 +14,13 @@ const gameData = {
         "image" : "smaller_images/homepage.png",
         "choices": {
             "Hate, hate, hate. Double hate. Loathe entirely.":
-                [3,[]],
+                [3,["EXES", "EXES", "EXES", "CONFUSED", "CONFUSED", "CONFUSED", "OLD FRIENDS", "SQUADMATES", "(step) BROTHERS", "OPPOSITES"]],
             "Indifferent. The idea is nice, but it can get a little over the top.":
-                [3,[]],
-            "Awwww. I think it's nice. The world could use more love.":
-                [3,[]],
-            "I think it might be my favorite holiday. It's just so cute and romantic.":
-                [3,[]]
+                [3,["END GAME", "TWINS", "TWINS", "TWINS", "OLD FRIENDS", "SQUADMATES", "SQUADMATES", "(step) BROTHERS", "(step) BROTHERS"]],
+            "I think it's nice! I'm a bit of a romantic.":
+                [3,["END GAME", "END GAME"]],
+            "It might be my favorite holiday--it's just so cute!":
+                [3,["OLD FRIENDS", "GORLS", "GORLS", "GORLS", "OPPOSITES", "OPPOSITES"]]
         }
     },
     "3": {
@@ -28,27 +28,27 @@ const gameData = {
         "image" : "smaller_images/homepage.png",
         "choices": {
             "6AM-12PM! I love an early morning. I was thinking a sunrise activity could be nice.":
-                [4,[]],
+                [4,["TWINS", "TWINS", "TWINS", "OLD FRIENDS", "SQUADMATES", "(step) BROTHERS", "(step) BROTHERS", "CONFUSED", "EXES", "EXES"]],
             "10AM-4PM. A classic lunch date with a little bit of exploring.":
-                [4,[]],
+                [4,["OLD FRIENDS", "SQUADMATES", "SQUADMATES", "(step) BROTHERS", "OPPOSITES", "CONFUSED", "CONFUSED", "EXES"]],
             "2PM-8PM. Something later on, but not too late, ya know?":
-                [4,[]],
-            "6PM-MIDNIGHT. I heard your favorite painting is called 'Nighthawks'.":
-                [4,[]]
+                [4,["END GAME", "OLD FRIENDS", "GORLS", "OPPOSITES"]],
+            "6PM-12AM. I heard your favorite painting is called 'Nighthawks'?":
+                [4,["END GAME", "END GAME", "GORLS", "GORLS", "OPPOSITES"]]
         }
     },
     "4": {
         "text": "Roger. And what kind of non-food activity would you most like to do?",
         "image" : "smaller_images/homepage.png",
         "choices": {
-            "An active activity. A run, some pickle ball, a hike, etc.":
-                [5,[]],
+            "An active activity! A run, some pickle ball, a hike, etc.":
+                [5,["TWINS", "TWINS", "TWINS", "OLD FRIENDS", "SQUADMATES". "SQUADMATES". "SQUADMATES", "(step) BROTHERS", "(step) BROTHERS", "(step) BROTHERS", "CONFUSED", "CONFUSED", "CONFUSED", "EXES"]],
             "Let's get artsy. A museum, a gallery, a painting class, etc.":
-                [5,[]],
+                [5,["END GAME", "GORLS", "GORLS", "OPPOSITES", "OPPOSITES", "EXES", "EXES"]],
             "A show! Live music, a play, a movie, etc.":
-                [5,[]],
+                [5,["END GAME", "OLD FRIENDS", "OPPOSITES"]],
             "Something outside for sure. Maybe a walk, a visit to the park, etc.":
-                [5,[]]
+                [5,["END GAME", "OLD FRIENDS", "GORLS"]]
         }
     },
     "5": {
@@ -56,13 +56,13 @@ const gameData = {
         "image" : "smaller_images/homepage.png",
         "choices": {
             "Let's pack something for our day. I like the idea of a picnic or some snacks on-the-go.":
-                [6,[]],
+                [6,["EXES", "CONFUSED", "CONFUSED", "(step) BROTHERS", "(step) BROTHERS", "SQUADMATES", "TWINS", "TWINS", "TWINS"]],
             "Something very casual--maybe we stop in a cute cafe for a bite and a coffee?":
-                [6,[]],
+                [6,["EXES", "EXES", "CONFUSED", "OPPOSITES", "(step) BROTHERS", "SQUADMATES", "SQUADMATES", "OLD FRIENDS", "OLD FRIENDS", "OLD FRIENDS"]],
             "I'm thinking just drinks might be fun. Gives us more time to yap.":
-                [6,[]],
+                [6,["GORLS", "GORLS", "GORLS", "END GAME"]],
             "A proper Valentine's Day dinner. I'm thinking a nice restaurant with a reservation.":
-                [6,[]]
+                [6,["OPPOSITES", "OPPOSITES", "END GAME", "END GAME"]]
         }
     },
     "6": {
@@ -84,13 +84,13 @@ const gameData = {
         "image" : "smaller_images/office.png",
         "choices": {
             "The one where Meredith gets hit by Michael's car, and also rabies.":
-                [8,["Confused", "(step) brothers", "(step) brothers"]],
+                [8,["OLD FRIENDS", "SQUADMATES", "OPPOSITES", "CONFUSED", "CONFUSED", "CONFUSED", "EXES"]],
             "The one where Michael hosts a dinner party and shows off his plasma screen TV.":
-                [8,["End Game", "Twins", "(step) brothers"]],
+                [8,["END GAME", "TWINS", "TWINS", "TWINS", "(step) BROTHERS", "(step) BROTHERS"]],
             "The Christmas party where Jim gives Pam a teapot.":
-                [8,["Gorls", "Adorable", "Adorable", "Adorable"]],
+                [8,["END GAME", "GORLS", "GORLS", "GORLS", "OPPOSITES", "EXES"]],
             "The Dundies, when Pam gets banned from Chili's.":
-                [8,["Gorls", "End Game", "Confused", "Confused", "Teammates", "Teammates", "Teammates"]]
+                [8,["END GAME", "OLD FRIENDS", "OLD FRIENDS", "SQUADMATES", "SQUADMATES", "(step) BROTHERS", "OPPOSITES", "EXES"]]
         }
     },
     "8": {
@@ -98,13 +98,13 @@ const gameData = {
         "image" : "smaller_images/state.png",
         "choices": {
             "California":
-                [9,["", "Opposites", "Mentor/Mentee", "Mentor/Mentee", "Confused"]],
+                [9,["OPPOSITES", "OPPOSITES"]],
             "Florida":
-                [9,["", "End Game", "End Game", "Twins", "Twins", "(step) brothers"]],
+                [9,[]],
             "Iowa":
-                [9,["Gorls", "Gorls", "(step) brothers", "(step) brothers"]],
+                [9,["EXES", "EXES", "EXES", "CONFUSED", "CONFUSED", "CONFUSED"]],
             "New Jersey":
-                [9,["Gorls", "Opposites", "Opposites", "End Game", "Mentor/Mentee", "Confused", "Confused", "Teammates", "Teammates", "Adorable", "Adorable"]]
+                [9,["OPPOSITES"]]
         }
     },
     "9": {
@@ -200,15 +200,15 @@ const gameData = {
 };
 
 const personalities = {
-    "Opposites": 0,
-    "End Game": 0,
-    "Mentor/Mentee": 0,
-    "Confused": 0,
-    "Twins": 0,
-    "Gorls": 0,
-    "(step) brothers": 0,
-    "Teammates": 0,
-    "Adorable": 0
+    "END GAME": 0,
+    "TWINS": 0,
+    "OLD FRIENDS": 0,
+    "GORLS": 0,
+    "SQUADMATES": 0,
+    "(step) BROTHERS": 0,
+    "OPPOSITES": 0,
+    "CONFUSED": 0,
+    "EXES": 0,
 };
 
 let currentState = 1;
