@@ -42,7 +42,7 @@ const gameData = {
         "image" : "smaller_images/homepage.png",
         "choices": {
             "An active activity! A run, some pickle ball, a hike, etc.":
-                [5,["TWINS", "TWINS", "TWINS", "OLD FRIENDS", "SQUADMATES". "SQUADMATES". "SQUADMATES", "(step) BROTHERS", "(step) BROTHERS", "(step) BROTHERS", "CONFUSED", "CONFUSED", "CONFUSED", "EXES"]],
+                [5,["TWINS", "TWINS", "TWINS", "OLD FRIENDS", "SQUADMATES", "SQUADMATES", "SQUADMATES", "(step) BROTHERS", "(step) BROTHERS", "(step) BROTHERS", "CONFUSED", "CONFUSED", "CONFUSED", "EXES"]],
             "Let's get artsy. A museum, a gallery, a painting class, etc.":
                 [5,["END GAME", "GORLS", "GORLS", "OPPOSITES", "OPPOSITES", "EXES", "EXES"]],
             "A show! Live music, a play, a movie, etc.":
@@ -112,13 +112,13 @@ const gameData = {
         "image" : "smaller_images/homepage.png",
         "choices": {
             "World famous road-trip DJ.":
-                [10,[]],
+                [10,["EXES", "EXES", "EXES", "CONFUSED", "OPPOSITES", "(step) BROTHERS", "SQUADMATES", "SQUADMATES", "SQUADMATES", "GORLS", "TWINS", "TWINS"]],
             "Knows what medicine to take when you're feeling sick.":
-                [10,[]],
+                [10,["GORLS", "GORLS", "OLD FRIENDS", "OLD FRIENDS", "OLD FRIENDS"]],
             "Has a quote from The Office for any occasion":
-                [10,[]],
+                [10,["OPPOSITES", "OPPOSITES", "(step) BROTHERS", "(step) BROTHERS", "TWINS"]],
             "Really good at doing taxes. (Will do your wife's (my) taxes.)":
-                [10,[]]
+                [10,["CONFUSED", "CONFUSED", "END GAME", "END GAME", "END GAME"]]
         }
     },
     "10": {
@@ -126,13 +126,13 @@ const gameData = {
         "image" : "smaller_images/homepage.png",
         "choices": {
             "Has a hard time getting rid of things that absolutely need to be donated/thrown away.":
-                [11,[]],
+                [11,["OLD FRIENDS", "OPPOSITES", "OPPOSITES"]],
             "Sends too many memes/tiktok videos.":
-                [11,[]],
+                [11,["TWINS", "OLD FRIENDS", "OLD FRIENDS", "GORLS", "GORLS", "GORLS", "OPPOSITES", "CONFUSED", "CONFUSED"]],
             "Takes too long to order at a restaurant and always asks for the server's recommendation.":
-                [11,[]],
+                [11,["END GAME", "END GAME", "END GAME", "(step) BROTHERS", "OPPOSITES"]],
             "Thinks 'CTRL-C' is hacking and has a lot of opinions about AI.":
-                [11,[]]
+                [11,["TWINS", "TWINS", "SQUADMATES", "SQUADMATES", "SQUADMATES", "(step) BROTHERS", "(step) BROTHERS", "CONFUSED", "EXES", "EXES", "EXES"]]
         }
     },
     "11": {
@@ -140,13 +140,13 @@ const gameData = {
         "image" : "smaller_images/homepage.png",
         "choices": {
             "Always makes her bed in the morning.":
-                [12,[]],
+                [12,["CONFUSED", "CONFUSED", "SQUADMATES", "TWINS", "TWINS", "TWINS", "END GAME"]],
             "Likes grocery shopping. Will leave your party to go pick up some more things at the grocery store.":
-                [12,[]],
+                [12,["EXES", "CONFUSED", "(step) BROTHERS", "(step) BROTHERS", "SQUADMATES", "OLD FRIENDS"]],
             "Has a notes app for every occasion.":
-                [12,[]],
+                [12,["(step) BROTHERS", "OLD FRIENDS", "OLD FRIENDS", "OLD FRIENDS", "END GAME", "END GAME"]],
             "Good at finding out information about your crush.":
-                [12,[]]
+                [12,["EXES", "EXES", "OPPOSITES", "OPPOSITES", "OPPOSITES", "SQUADMATES", "GORLS", "GORLS", "GORLS"]]
         }
     },
     "12": {
@@ -154,13 +154,13 @@ const gameData = {
         "image" : "smaller_images/homepage.png",
         "choices": {
             "Thinks salt and pepper is `spicy`.":
-                [13,[]],
+                [13,["END GAME", "GORLS", "GORLS", "SQUADMATES", "(step) BROTHERS", "(step) BROTHERS", "(step) BROTHERS", "EXES"]],
             "No sense of direction--can get lost in her own house.":
-                [13,[]],
+                [13,["TWINS", "TWINS", "TWINS", "GORLS", "CONFUSED", "CONFUSED", "CONFUSED", "EXES", "EXES"]],
             "Can take care of a kid or a pet for weeks; but will kill a plant overnight.":
-                [13,[]],
+                [13,["OLD FRIENDS", "OLD FRIENDS", "SQUADMATES", "OPPOSITES", "OPPOSITES", "OPPOSITES"]],
             "Starts a TV show/movie and never finishes it.":
-                [13,[]]
+                [13,["END GAME", "END GAME", "OLD FRIENDS", "SQUADMATES"]]
         }
     },
     "13": {
