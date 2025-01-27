@@ -81,7 +81,7 @@ const gameData = {
     },
     "7": {
         "text": "2: Pick a favorite episode from The Office.",
-        "image" : "smaller_images/office.png",
+        "image" : "smaller_images/homepage.png",
         "choices": {
             "The one where Meredith gets hit by Michael's car, and also rabies.":
                 [8,["OLD FRIENDS", "SQUADMATES", "OPPOSITES", "CONFUSED", "CONFUSED", "CONFUSED", "EXES"]],
@@ -95,82 +95,82 @@ const gameData = {
     },
     "8": {
         "text": "3: Pick a state in which you would NEVER want to live.",
-        "image" : "smaller_images/state.png",
+        "image" : "smaller_images/homepage.png",
         "choices": {
             "California":
-                [9,["OPPOSITES", "OPPOSITES"]],
+                [9,["OPPOSITES", "OPPOSITES", "(step) BROTHERS", "(step) BROTHERS", "OLD FRIENDS", "OLD FRIENDS"]],
             "Florida":
-                [9,[]],
+                [9,["(step) BROTHERS", "SQUADMATES", "SQUADMATES", "TWINS", "TWINS", "TWINS", "END GAME", "END GAME", "END GAME"]],
             "Iowa":
-                [9,["EXES", "EXES", "EXES", "CONFUSED", "CONFUSED", "CONFUSED"]],
+                [9,["EXES", "EXES", "EXES", "CONFUSED", "CONFUSED", "CONFUSED", "GORLS", "GORLS"]],
             "New Jersey":
-                [9,["OPPOSITES"]]
+                [9,["OPPOSITES", "SQUADMATES", "GORLS", "OLD FRIENDS"]]
         }
     },
     "9": {
-        "text": "Very interesting.Now let's switch to more important things.\nA green flag of YOURS is...",
-        "image" : "smaller_images/green.png",
+        "text": "Very interesting. Now, let's switch to more important things.\nA green flag of YOURS is...",
+        "image" : "smaller_images/homepage.png",
         "choices": {
-            "You have actually read the terms and conditions.":
-                [10,["Opposites", "Mentor/Mentee", "Mentor/Mentee", "Confused", "Teammates"]],
-            "You have a (bad) joke or pun ready for almost any occasion.":
-                [10,["Opposites", "Opposites", "End Game", "End Game", "(step) brothers", "(step) brothers", "(step) brothers", "Teammates", "Teammates"]],
-            "You relocate spiders instead of killing them.":
-                [10,["Gorls", "Mentor/Mentee", "Confused", "Adorable", "Adorable", "Adorable"]],
-            "You know how to fold a fitted sheet.":
-                [10,["Gorls", "Gorls", "End Game", "Confused", "Twins"]]
+            "Really good at gardening.":
+                [10,[]],
+            "Always has a dad joke or pun ready to go.":
+                [10,[]],
+            ".":
+                [10,[]],
+            "Knows how to fold a fitted sheet.":
+                [10,[]]
         }
     },
     "10": {
         "text": "A red flag of YOURS is...",
-        "image" : "smaller_images/red.png",
+        "image" : "smaller_images/homepage.png",
         "choices": {
-            "You are allergic to dogs.":
-                [11,["Opposites", "Opposites", "Confused", "(step) brothers"]],
-            "You send too many memes/tiktok videos.":
-                [11,["Gorls", "Opposites", "Confused", "Confused", "(step) brothers", "Teammates", "Teammates", "Adorable", "Adorable"]],
-            "You take too long to order at a restaurant and always ask for a recommendation.":
-                [11,["End Game", "End Game", "End Game", "Mentor/Mentee", "(step) brothers"]],
-            "You have a caffeine addiction.":
-                [11,["Gorls", "Gorls", "Mentor/Mentee", "Mentor/Mentee", "Twins", "Teammates", "Adorable"]]
+            "Has a hard time getting rid of things that absolutely need to be donated/thrown away.":
+                [11,[]],
+            "Sends too many memes/tiktok videos.":
+                [11,[]],
+            "Takes too long to order at a restaurant and always asks for the server's recommendation.":
+                [11,[]],
+            "Thinks 'CTRL-C' is hacking and has a lot of opinions about AI.":
+                [11,[]]
         }
     },
     "11": {
         "text": "A green flag of MINE (kristen) is...",
-        "image" : "smaller_images/greenk.ong",
+        "image" : "smaller_images/homepage.png",
         "choices": {
-            "I always make my bed in the morning.":
-                [12,["End Game", "Mentor/Mentee", "Confused", "(step) brothers"]],
+            "Always makes my bed in the morning.":
+                [12,[]],
             "My Notes App.":
-                [12,["Gorls", "End Game", "End Game", "Twins", "Twins", "(step) brothers"]],
-            "I know how to skip and do a somersault.":
-                [12,["Gorls", "(step) brothers", "Teammates"]],
-            "I am good at sharing my crayons and colored pencils.":
-                [12,["Gorls", "Mentor/Mentee", "Confused", "Confused", "Teammates", "Teammates", "Adorable", "Adorable", "Adorable"]]
+                [12,[]],
+            ".":
+                [12,[]],
+            "":
+                [12,[]]
         }
     },
     "12": {
         "text": "A red flag of MINE (kristen) is...",
-        "image" : "smaller_images/redk.png",
+        "image" : "smaller_images/homepage.png",
         "choices": {
-            "My sense of direction is terrible.":
-                [13,["Opposites", "Mentor/Mentee", "Mentor/Mentee", "Confused", "Twins", "Teammates", "Adorable"]],
-            "I go to bed too early.":
-                [13,["Gorls", "Opposites", "End Game", "Mentor/Mentee", "(step) brothers", "Adorable"]],
-            "I gave you a first impression that I didn't like you.":
-                [13,["End Game", "End Game", "Confused", "Confused", "Twins"]],
-            "I am a Steelers Fan.":
-                [13,["Gorls", "(step) brothers", "(step) brothers", "Teammates", "Teammates", "Adorable"]]
+            "Thinks salt and pepper is `spicy`.":
+                [13,[]],
+            "No sense of direction--can get lost in her own house.":
+                [13,[]],
+            "Can take care of a kid or a pet for weeks; but will kill a plant overnight.":
+                [13,[]],
+            "Starts a TV show/movie and never finishes it.":
+                [13,[]]
         }
     },
     "13": {
         "text": "If you were given a free ticket to outer space, would you take it?",
-        "image" : "smaller_images/space.png",
+        "image" : "smaller_images/homepage.png",
         "choices": {
             "Yes.":
-                [14,["Opposites", "Opposites", "Mentor/Mentee", "Confused", "Confused", "(step) brothers", "(step) brothers", "Teammates"]],
+                [14,["EXES", "CONFUSED", "OPPOSITES", "(step) BROTHERS", "SQUADMATES"]],
             "No.":
-                [14,["Gorls", "End Game", "Twins", "Twins", "Adorable"]],
+                [14,["GORLS", "OLD FRIENDS", "TWINS", "END GAME"]],
         }
     },
     "14": {
@@ -178,23 +178,23 @@ const gameData = {
         "image" : "smaller_images/homepage.png",
         "choices": {
             "Yes.":
-                [15,["Opposites", "Opposites", "Mentor/Mentee", "Confused", "Confused", "(step) brothers", "(step) brothers", "Teammates"]],
+                [15,["CONFUSED", "(step) BROTHERS", "SQUADMATES", "GORLS", "TWINS"]],
             "No.":
-                [15,["Gorls", "End Game", "Twins", "Twins", "Adorable"]],
+                [15,["EXES", "OPPOSITES", "OLD FRIENDS", "END GAME"]],
         }
     },
     "15": {
-        "text": "FINALLY. What is the best way to end a date?",
+        "text": "LAST ONE. What is the best way to end a date?",
         "image" : "smaller_images/homepage.png",
         "choices": {
-            "A bubble bath.\nNot together...OBVIOUSLY...\nbut I am going to take one in my bathtub,\nand you can take one in yours.":
-                [0,[]],
+            "A bubble bath.\nNot together...OBVIOUSLY...\nbut I am going to take one in my bathtub,\nand you can take one in yours (if you want).":
+                [0,["END GAME", "END GAME", "TWINS"]],
             "A secret handshake.":
-                [0,[]],
+                [0,["TWINS", "SQUADMATES", "SQUADMATES", "(step) BROTHERS", "(step) BROTHERS", "(step) BROTHERS", "OPPOSITES", "CONFUSED", "CONFUSED", "CONFUSED", "EXES"]],
             "Hanging out with friends and debriefing.":
-                [0,[]],
+                [0,["TWINS", "OLD FRIENDS", "GORLS", "GORLS", "GORLS", "SQUADMATES", "OPPOSITES", "EXES"]],
             "With plans for another!":
-                [0,[]]
+                [0,["END GAME", "OLD FRIENDS", "OLD FRIENDS", "OPPOSITES", "EXES"]]
         }
     }
 };
