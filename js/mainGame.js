@@ -111,13 +111,13 @@ const gameData = {
         "text": "Very interesting. Now, let's switch to more important things.\nA green flag of YOURS is...",
         "image" : "smaller_images/homepage.png",
         "choices": {
-            "Really good at gardening.":
+            "World famous road-trip DJ.":
                 [10,[]],
-            "Always has a dad joke or pun ready to go.":
+            "Knows what medicine to take when you're feeling sick.":
                 [10,[]],
-            ".":
+            "Has a quote from The Office for any occasion":
                 [10,[]],
-            "Knows how to fold a fitted sheet.":
+            "Really good at doing taxes. (Will do your wife's (my) taxes.)":
                 [10,[]]
         }
     },
@@ -139,13 +139,13 @@ const gameData = {
         "text": "A green flag of MINE (kristen) is...",
         "image" : "smaller_images/homepage.png",
         "choices": {
-            "Always makes my bed in the morning.":
+            "Always makes her bed in the morning.":
                 [12,[]],
-            "My Notes App.":
+            "Likes grocery shopping. Will leave your party to go pick up some more things at the grocery store.":
                 [12,[]],
-            ".":
+            "Has a notes app for every occasion.":
                 [12,[]],
-            "":
+            "Good at finding out information about your crush.":
                 [12,[]]
         }
     },
