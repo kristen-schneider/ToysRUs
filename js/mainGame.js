@@ -1,3 +1,15 @@
+const personalities = {
+    "END GAME": 0,
+    "TWINS": 0,
+    "OLD FRIENDS": 0,
+    "GORLS": 0,
+    "SQUADMATES": 0,
+    "(step) BROTHERS": 0,
+    "OPPOSITES": 0,
+    "CONFUSED": 0,
+    "EXES": 0,
+};
+
 const gameData = {
     "1": {
         "text": "<3",
@@ -196,24 +208,16 @@ const gameData = {
             "With plans for another!":
                 [0,["END GAME", "OLD FRIENDS", "OLD FRIENDS", "OPPOSITES", "EXES"]]
         }
-    }
-};
+    },
+    "0":{
 
-const personalities = {
-    "END GAME": 0,
-    "TWINS": 0,
-    "OLD FRIENDS": 0,
-    "GORLS": 0,
-    "SQUADMATES": 0,
-    "(step) BROTHERS": 0,
-    "OPPOSITES": 0,
-    "CONFUSED": 0,
-    "EXES": 0,
+    }
 };
 
 let currentState = 1;
 
 function renderState(state) {
+    // console.log("b");
     const storyText = document.getElementById('story-text');
     const storyImage = document.getElementById('story-image');
     const choicesContainer = document.getElementById('choices');
@@ -301,7 +305,6 @@ function revealMostSelectedVegetable() {
         text.appendChild(shareButton);
     };
 }
-
 
 function startGame() {
     document.querySelector('.title').style.display = 'none';
