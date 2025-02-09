@@ -1,13 +1,13 @@
 const personalities = {
-    "END GAME": 0,
-    "TWINS": 0,
-    "OLD FRIENDS": 0,
-    "GORLS": 0,
-    "SQUADMATES": 0,
-    "(step) BROTHERS": 0,
-    "OPPOSITES": 0,
-    "CONFUSED": 0,
-    "EXES": 0,
+    "end_game": 0,
+    "twins": 0,
+    "old_friends": 0,
+    "gorls": 0,
+    "squadmates": 0,
+    "step_brothers": 0,
+    "opposites": 0,
+    "confused": 0,
+    "exes": 0,
 };
 
 const gameData = {
@@ -16,147 +16,147 @@ const gameData = {
         "image" : "smaller_images/homepage.png",
         "choices": {
             "Let's get started.":
-                [2,["END GAME", "TWINS", "OLD FRIENDS", "GORLS", "SQUADMATES", "(step) BROTHERS", "OPPOSITES", "CONFUSED", "EXES"]],
+                [2,["end_game", "TWINS", "old_friends", "gorls", "squadmates", "step_brothers", "opposites", "confused", "exes"]],
         }
     },
     "2": {
-        "text": "1.a. How do you feel about Valentine's Day?",
+        "text": "1/20. VALENTINE'S DAY DATE\nHow do you feel about Valentine's Day?",
         "image" : "smaller_images/homepage.png",
         "choices": {
             "Hate, hate, hate. Double hate. Loathe entirely.":
-                [3,["EXES", "EXES", "EXES", "CONFUSED", "CONFUSED", "CONFUSED", "OLD FRIENDS", "SQUADMATES", "(step) BROTHERS", "OPPOSITES"]],
+                [3,["exes", "exes", "exes", "confused", "confused", "confused", "old_friends", "squadmates", "step_brothers", "opposites"]],
             "Indifferent. The idea is nice, but it can get a little over the top.":
-                [3,["END GAME", "TWINS", "TWINS", "TWINS", "OLD FRIENDS", "SQUADMATES", "SQUADMATES", "(step) BROTHERS", "(step) BROTHERS"]],
+                [3,["end_game", "twins", "twins", "twins", "old_friends", "squadmates", "squadmates", "step_brothers", "step_brothers"]],
             "I think it's nice! I'm a bit of a romantic.":
-                [3,["END GAME", "END GAME"]],
+                [3,["end_game", "end_game"]],
             "It might be my favorite holiday--it's just so cute!":
-                [3,["OLD FRIENDS", "GORLS", "GORLS", "GORLS", "OPPOSITES", "OPPOSITES"]]
+                [3,["old_friends", "gorls", "gorls", "gorls", "opposites", "opposites"]]
         }
     },
     "3": {
-        "text": "1.b. What kind of timing are we thinking for this date?",
+        "text": "2/20. VALENTINE'S DAY DATE\nWhat kind of timing are we thinking for this date?",
         "image" : "smaller_images/homepage.png",
         "choices": {
             "6AM-12PM! I love an early morning. I was thinking a sunrise activity could be nice.":
-                [4,["TWINS", "TWINS", "TWINS", "OLD FRIENDS", "SQUADMATES", "(step) BROTHERS", "(step) BROTHERS", "CONFUSED", "EXES", "EXES"]],
+                [4,["twins", "twins", "twins", "old_friends", "squadmates", "step_brothers", "step_brothers", "confused", "exes", "exes"]],
             "10AM-4PM. A classic lunch date with a little bit of exploring.":
-                [4,["OLD FRIENDS", "SQUADMATES", "SQUADMATES", "(step) BROTHERS", "OPPOSITES", "CONFUSED", "CONFUSED", "EXES"]],
+                [4,["old_friends", "squadmates", "squadmates", "step_brothers", "opposites", "confused", "confused", "exes"]],
             "2PM-8PM. Something later on, but not too late, ya know?":
-                [4,["END GAME", "OLD FRIENDS", "GORLS", "OPPOSITES"]],
+                [4,["end_game", "old_friends", "gorls", "opposites"]],
             "6PM-12AM. I heard your favorite painting is called 'Nighthawks'?":
-                [4,["END GAME", "END GAME", "GORLS", "GORLS", "OPPOSITES"]]
+                [4,["end_game", "end_game", "gorls", "gorls", "opposites"]]
         }
     },
     "4": {
-        "text": "1.c. What kind of non-food activity would you most like to do?",
+        "text": "3/20. VALENTINE'S DAY DATE\nWhat kind of non-food activity would you most like to do?",
         "image" : "smaller_images/homepage.png",
         "choices": {
             "An active activity! A run, some pickle ball, a hike, etc.":
-                [5,["TWINS", "TWINS", "TWINS", "OLD FRIENDS", "SQUADMATES", "SQUADMATES", "SQUADMATES", "(step) BROTHERS", "(step) BROTHERS", "(step) BROTHERS", "CONFUSED", "CONFUSED", "CONFUSED", "EXES"]],
+                [5,["twins", "twins", "twins", "old_friends", "squadmates", "squadmates", "squadmates", "step_brothers", "step_brothers", "step_brothers", "confused", "confused", "confused", "exes"]],
             "Let's get artsy. A museum, a gallery, a painting class, etc.":
-                [5,["END GAME", "GORLS", "GORLS", "OPPOSITES", "OPPOSITES", "EXES", "EXES"]],
+                [5,["end_game", "gorls", "gorls", "opposites", "opposites", "exes", "exes"]],
             "A show! Live music, a play, a movie, etc.":
-                [5,["END GAME", "OLD FRIENDS", "OPPOSITES"]],
+                [5,["end_game", "old_friends", "opposites"]],
             "Something outside for sure. Maybe a walk, a visit to the park, etc.":
-                [5,["END GAME", "OLD FRIENDS", "GORLS"]]
+                [5,["end_game", "old_friends", "gorls"]]
         }
     },
     "5": {
-        "text": "1.d. And, finally, for the food portion of the date, what are you thinking?",
+        "text": "4/20. VALENTINE'S DAY DATE\nAnd, finally, for the food portion of the date, what are you thinking?",
         "image" : "smaller_images/homepage.png",
         "choices": {
             "Let's pack something for our day. I like the idea of a picnic or some snacks on-the-go.":
-                [6,["EXES", "CONFUSED", "CONFUSED", "(step) BROTHERS", "(step) BROTHERS", "SQUADMATES", "TWINS", "TWINS", "TWINS"]],
+                [6,["exes", "confused", "confused", "step_brothers", "step_brothers", "squadmates", "twins", "twins", "twins"]],
             "Something very casual--maybe we stop in a cute cafe for a bite and a coffee?":
-                [6,["EXES", "EXES", "CONFUSED", "OPPOSITES", "(step) BROTHERS", "SQUADMATES", "SQUADMATES", "OLD FRIENDS", "OLD FRIENDS", "OLD FRIENDS"]],
+                [6,["exes", "exes", "confused", "opposites", "step_brothers", "squadmates", "squadmates", "old_friends", "old_friends", "old_friends"]],
             "I'm thinking just drinks might be fun. Gives us more time to yap.":
-                [6,["GORLS", "GORLS", "GORLS", "END GAME"]],
+                [6,["gorls", "gorls", "gorls", "end_game"]],
             "A proper Valentine's Day dinner. I'm thinking a nice restaurant with a reservation.":
-                [6,["OPPOSITES", "OPPOSITES", "END GAME", "END GAME"]]
+                [6,["opposites", "opposites", "end_game", "end_game"]]
         }
     },
     "6": {
-        "text": "2.a. Great. Now let's get personal.\nA green flag of YOURS is...",
+        "text": "5/20. VERY VERY PERSONAL\nA green flag of YOURS is...",
         "image" : "smaller_images/homepage.png",
         "choices": {
             "World famous road-trip DJ.":
-                [7,["EXES", "EXES", "EXES", "CONFUSED", "OPPOSITES", "(step) BROTHERS", "SQUADMATES", "SQUADMATES", "SQUADMATES", "GORLS", "TWINS", "TWINS"]],
+                [7,["exes", "exes", "exes", "confused", "opposites", "step_brothers", "squadmates", "squadmates", "squadmates", "gorls", "TWINS", "TWINS"]],
             "Knows what medicine to take when you're feeling sick.":
-                [7,["GORLS", "GORLS", "OLD FRIENDS", "OLD FRIENDS", "OLD FRIENDS"]],
+                [7,["gorls", "gorls", "old_friends", "old_friends", "old_friends"]],
             "Has a quote from The Office for any occasion":
-                [7,["OPPOSITES", "OPPOSITES", "(step) BROTHERS", "(step) BROTHERS", "TWINS"]],
+                [7,["opposites", "opposites", "step_brothers", "step_brothers", "twins"]],
             "Really good at doing taxes. (Will do your wife's (my) taxes.)":
-                [7,["CONFUSED", "CONFUSED", "END GAME", "END GAME", "END GAME"]]
+                [7,["confused", "confused", "end_game", "end_game", "end_game"]]
         }
     },
     "7": {
-        "text": "2.b. A red flag of YOURS is...",
+        "text": "6/20. VERY VERY PERSONAL\nA red flag of YOURS is...",
         "image" : "smaller_images/homepage.png",
         "choices": {
             "Has a hard time getting rid of things that absolutely need to be donated/thrown away.":
-                [8,["OLD FRIENDS", "OPPOSITES", "OPPOSITES"]],
+                [8,["old_friends", "opposites", "opposites"]],
             "Sends too many memes/tiktok videos.":
-                [8,["TWINS", "OLD FRIENDS", "OLD FRIENDS", "GORLS", "GORLS", "GORLS", "OPPOSITES", "CONFUSED", "CONFUSED"]],
+                [8,["twins", "old_friends", "old_friends", "gorls", "gorls", "gorls", "opposites", "confused", "confused"]],
             "Takes too long to order at a restaurant and always asks for the server's recommendation.":
-                [8,["END GAME", "END GAME", "END GAME", "(step) BROTHERS", "OPPOSITES"]],
+                [8,["end_game", "end_game", "end_game", "step_brothers", "opposites"]],
             "Thinks 'CTRL-C' is hacking and has a lot of opinions about AI.":
-                [8,["TWINS", "TWINS", "SQUADMATES", "SQUADMATES", "SQUADMATES", "(step) BROTHERS", "(step) BROTHERS", "CONFUSED", "EXES", "EXES", "EXES"]]
+                [8,["twins", "twins", "squadmates", "squadmates", "squadmates", "step_brothers", "step_brothers", "confused", "exes", "exes", "exes"]]
         }
     },
     "8": {
-        "text": "2.c. A green flag of MINE (kristen) is...",
+        "text": "7/20. VERY VERY PERSONAL\nA green flag of MINE (kristen) is...",
         "image" : "smaller_images/homepage.png",
         "choices": {
             "Always makes her bed in the morning.":
-                [9,["CONFUSED", "CONFUSED", "SQUADMATES", "TWINS", "TWINS", "TWINS", "END GAME"]],
+                [9,["confused", "confused", "squadmates", "twins", "twins", "twins", "end_game"]],
             "Likes grocery shopping. Will leave your party to go pick up some more things at the grocery store.":
-                [9,["EXES", "CONFUSED", "(step) BROTHERS", "(step) BROTHERS", "SQUADMATES", "OLD FRIENDS"]],
+                [9,["exes", "confused", "step_brothers", "step_brothers", "squadmates", "old_friends"]],
             "Has a notes app for every occasion.":
-                [9,["(step) BROTHERS", "OLD FRIENDS", "OLD FRIENDS", "OLD FRIENDS", "END GAME", "END GAME"]],
+                [9,["step_brothers", "old_friends", "old_friends", "old_friends", "end_game", "end_game"]],
             "Good at finding out information about your crush.":
-                [9,["EXES", "EXES", "OPPOSITES", "OPPOSITES", "OPPOSITES", "SQUADMATES", "GORLS", "GORLS", "GORLS"]]
+                [9,["exes", "exes", "opposites", "opposites", "opposites", "squadmates", "gorls", "gorls", "gorls"]]
         }
     },
     "9": {
-        "text": "2.d. A red flag of MINE (kristen) is...",
+        "text": "8/20. VERY VERY PERSONAL\nA red flag of MINE (kristen) is...",
         "image" : "smaller_images/homepage.png",
         "choices": {
             "Thinks salt and pepper is `spicy`.":
-                [10,["END GAME", "GORLS", "GORLS", "SQUADMATES", "(step) BROTHERS", "(step) BROTHERS", "(step) BROTHERS", "EXES"]],
+                [10,["end_game", "gorls", "gorls", "squadmates", "step_brothers", "step_brothers", "step_brothers", "exes"]],
             "No sense of direction--can get lost in her own house.":
-                [10,["TWINS", "TWINS", "TWINS", "GORLS", "CONFUSED", "CONFUSED", "CONFUSED", "EXES", "EXES"]],
+                [10,["twins", "twins", "twins", "gorls", "confused", "confused", "confused", "exes", "exes"]],
             "Can take care of a kid or a pet for weeks; but will kill a plant overnight.":
-                [10,["OLD FRIENDS", "OLD FRIENDS", "SQUADMATES", "OPPOSITES", "OPPOSITES", "OPPOSITES"]],
+                [10,["old_friends", "old_friends", "squadmates", "opposites", "opposites", "opposites"]],
             "Starts a TV show/movie and never finishes it.":
-                [10,["END GAME", "END GAME", "OLD FRIENDS", "SQUADMATES"]]
+                [10,["end_game", "end_game", "old_friends", "squadmates"]]
         }
     },
     "10": {
-        "text": "----A red flag of MINE (kristen) is...",
+        "text": "...",
         "image" : "smaller_images/homepage.png",
         "choices": {
             "Thinks salt and pepper is `spicy`.":
-                [11,["END GAME", "GORLS", "GORLS", "SQUADMATES", "(step) BROTHERS", "(step) BROTHERS", "(step) BROTHERS", "EXES"]],
+                [11,["end_game", "gorls", "gorls", "squadmates", "step_brothers", "step_brothers", "step_brothers", "exes"]],
             "No sense of direction--can get lost in her own house.":
-                [11,["TWINS", "TWINS", "TWINS", "GORLS", "CONFUSED", "CONFUSED", "CONFUSED", "EXES", "EXES"]],
+                [11,["twins", "twins", "twins", "gorls", "confused", "confused", "confused", "exes", "exes"]],
             "Can take care of a kid or a pet for weeks; but will kill a plant overnight.":
-                [11,["OLD FRIENDS", "OLD FRIENDS", "SQUADMATES", "OPPOSITES", "OPPOSITES", "OPPOSITES"]],
+                [11,["old_friends", "old_friends", "squadmates", "opposites", "opposites", "opposites"]],
             "Starts a TV show/movie and never finishes it.":
-                [11,["END GAME", "END GAME", "OLD FRIENDS", "SQUADMATES"]]
+                [11,["end_game", "end_game", "old_friends", "squadmates"]]
         }
     },
     "11": {
-        "text": "LAST QUESTION",
+        "text": "17/20. Before I tell you what we are...you first. What do YOU think we are??? HM?\n",
         "image" : "smaller_images/homepage.png",
         "choices": {
             "Always makes her bed in the morning.":
-                [0,["CONFUSED", "CONFUSED", "SQUADMATES", "TWINS", "TWINS", "TWINS", "END GAME"]],
+                [0,["confused", "confused", "squadmates", "twins", "twins", "twins", "end_game"]],
             "Likes grocery shopping. Will leave your party to go pick up some more things at the grocery store.":
-                [0,["EXES", "CONFUSED", "(step) BROTHERS", "(step) BROTHERS", "SQUADMATES", "OLD FRIENDS"]],
+                [0,["exes", "confused", "step_brothers", "step_brothers", "squadmates", "old_friends"]],
             "Has a notes app for every occasion.":
-                [0,["(step) BROTHERS", "OLD FRIENDS", "OLD FRIENDS", "OLD FRIENDS", "END GAME", "END GAME"]],
+                [0,["step_brothers", "old_friends", "old_friends", "old_friends", "end_game", "end_game"]],
             "Good at finding out information about your crush.":
-                [0,["EXES", "EXES", "OPPOSITES", "OPPOSITES", "OPPOSITES", "SQUADMATES", "GORLS", "GORLS", "GORLS"]]
+                [0,["exes", "exes", "opposites", "opposites", "opposites", "squadmates", "gorls", "gorls", "gorls"]]
         }
     },
     // "": {
@@ -164,13 +164,13 @@ const gameData = {
     //     "image" : "smaller_images/homepage.png",
     //     "choices": {
     //         "":
-    //             [7,["END GAME", "END GAME", "END GAME", "GORLS", "GORLS", "GORLS", "TWINS", "TWINS", "TWINS", "OLD FRIENDS", "OLD FRIENDS", "OLD FRIENDS", "OPPOSITES", "OPPOSITES", "OPPOSITES", "EXES", "EXES", "EXES"]],
+    //             [7,["end_game", "end_game", "end_game", "gorls", "gorls", "gorls", "twins", "twins", "twins", "old_friends", "old_friends", "old_friends", "opposites", "opposites", "opposites", "exes", "exes", "exes"]],
     //         "":
-    //             [7,["END GAME", "END GAME", "END GAME", "GORLS", "GORLS", "GORLS", "TWINS", "TWINS", "TWINS", "OLD FRIENDS", "OLD FRIENDS", "OLD FRIENDS", "OPPOSITES", "OPPOSITES", "OPPOSITES", "EXES", "EXES", "EXES"]],
+    //             [7,["end_game", "end_game", "end_game", "gorls", "gorls", "gorls", "twins", "twins", "twins", "old_friends", "old_friends", "old_friends", "opposites", "opposites", "opposites", "exes", "exes", "exes"]],
     //         "":
-    //             [7,["END GAME", "END GAME", "END GAME", "GORLS", "GORLS", "GORLS", "TWINS", "TWINS", "TWINS", "OLD FRIENDS", "OLD FRIENDS", "OLD FRIENDS", "OPPOSITES", "OPPOSITES", "OPPOSITES", "EXES", "EXES", "EXES"]],
+    //             [7,["end_game", "end_game", "end_game", "gorls", "gorls", "gorls", "twins", "twins", "twins", "old_friends", "old_friends", "old_friends", "opposites", "opposites", "opposites", "exes", "exes", "exes"]],
     //         "":
-    //             [7,["END GAME", "END GAME", "END GAME", "GORLS", "GORLS", "GORLS", "TWINS", "TWINS", "TWINS", "OLD FRIENDS", "OLD FRIENDS", "OLD FRIENDS", "OPPOSITES", "OPPOSITES", "OPPOSITES", "EXES", "EXES", "EXES"]]
+    //             [7,["end_game", "end_game", "end_game", "gorls", "gorls", "gorls", "twins", "twins", "twins", "old_friends", "old_friends", "old_friends", "opposites", "opposites", "opposites", "exes", "exes", "exes"]]
     //     }
     // },
     // "7": {
@@ -178,13 +178,13 @@ const gameData = {
     //     "image" : "smaller_images/homepage.png",
     //     "choices": {
     //         "The one where Meredith gets hit by Michael's car, and also rabies.":
-    //             [8,["OLD FRIENDS", "SQUADMATES", "OPPOSITES", "CONFUSED", "CONFUSED", "CONFUSED", "EXES"]],
+    //             [8,["old_friends", "squadmates", "opposites", "confused", "confused", "confused", "exes"]],
     //         "The one where Michael hosts a dinner party and shows off his plasma screen TV.":
-    //             [8,["END GAME", "TWINS", "TWINS", "TWINS", "(step) BROTHERS", "(step) BROTHERS"]],
+    //             [8,["end_game", "twins", "twins", "twins", "step_brothers", "step_brothers"]],
     //         "The Christmas party where Jim gives Pam a teapot.":
-    //             [8,["END GAME", "GORLS", "GORLS", "GORLS", "OPPOSITES", "EXES"]],
+    //             [8,["end_game", "gorls", "gorls", "gorls", "opposites", "exes"]],
     //         "The Dundies, when Pam gets banned from Chili's.":
-    //             [8,["END GAME", "OLD FRIENDS", "OLD FRIENDS", "SQUADMATES", "SQUADMATES", "(step) BROTHERS", "OPPOSITES", "EXES"]]
+    //             [8,["end_game", "old_friends", "old_friends", "squadmates", "squadmates", "step_brothers", "opposites", "exes"]]
     //     }
     // },
     // "8": {
@@ -192,13 +192,13 @@ const gameData = {
     //     "image" : "smaller_images/homepage.png",
     //     "choices": {
     //         "California":
-    //             [9,["OPPOSITES", "OPPOSITES", "(step) BROTHERS", "(step) BROTHERS", "OLD FRIENDS", "OLD FRIENDS"]],
+    //             [9,["opposites", "opposites", "step_brothers", "step_brothers", "old_friends", "old_friends"]],
     //         "Florida":
-    //             [9,["(step) BROTHERS", "SQUADMATES", "SQUADMATES", "TWINS", "TWINS", "TWINS", "END GAME", "END GAME", "END GAME"]],
+    //             [9,["step_brothers", "squadmates", "squadmates", "twins", "twins", "twins", "end_game", "end_game", "end_game"]],
     //         "Iowa":
-    //             [9,["EXES", "EXES", "EXES", "CONFUSED", "CONFUSED", "CONFUSED", "GORLS", "GORLS"]],
+    //             [9,["exes", "exes", "exes", "confused", "confused", "confused", "gorls", "gorls"]],
     //         "New Jersey":
-    //             [9,["OPPOSITES", "SQUADMATES", "GORLS", "OLD FRIENDS"]]
+    //             [9,["opposites", "squadmates", "gorls", "old_friends"]]
     //     }
     // },
     // "13": {
@@ -206,9 +206,9 @@ const gameData = {
     //     "image" : "smaller_images/homepage.png",
     //     "choices": {
     //         "Yes.":
-    //             [14,["EXES", "CONFUSED", "OPPOSITES", "(step) BROTHERS", "SQUADMATES"]],
+    //             [14,["exes", "confused", "opposites", "step_brothers", "squadmates"]],
     //         "No.":
-    //             [14,["GORLS", "OLD FRIENDS", "TWINS", "END GAME"]],
+    //             [14,["gorls", "old_friends", "twins", "end_game"]],
     //     }
     // },
     // "14": {
@@ -216,9 +216,9 @@ const gameData = {
     //     "image" : "smaller_images/homepage.png",
     //     "choices": {
     //         "Yes.":
-    //             [15,["CONFUSED", "(step) BROTHERS", "SQUADMATES", "GORLS", "TWINS"]],
+    //             [15,["confused", "step_brothers", "squadmates", "gorls", "twins"]],
     //         "No.":
-    //             [15,["EXES", "OPPOSITES", "OLD FRIENDS", "END GAME"]],
+    //             [15,["exes", "opposites", "old_friends", "end_game"]],
     //     }
     // },
     // "15": {
@@ -226,13 +226,13 @@ const gameData = {
     //     "image" : "smaller_images/homepage.png",
     //     "choices": {
     //         "A bubble bath.\nNot together...OBVIOUSLY...\nbut I am going to take one in my bathtub,\nand you can take one in yours (if you want).":
-    //             [0,["END GAME", "END GAME", "TWINS"]],
+    //             [0,["end_game", "end_game", "twins"]],
     //         "A secret handshake.":
-    //             [0,["TWINS", "SQUADMATES", "SQUADMATES", "(step) BROTHERS", "(step) BROTHERS", "(step) BROTHERS", "OPPOSITES", "CONFUSED", "CONFUSED", "CONFUSED", "EXES"]],
+    //             [0,["twins", "squadmates", "squadmates", "step_brothers", "step_brothers", "step_brothers", "opposites", "confused", "confused", "confused", "exes"]],
     //         "Hanging out with friends and debriefing.":
-    //             [0,["TWINS", "OLD FRIENDS", "GORLS", "GORLS", "GORLS", "SQUADMATES", "OPPOSITES", "EXES"]],
+    //             [0,["twins", "old_friends", "gorls", "gorls", "gorls", "squadmates", "opposites", "exes"]],
     //         "With plans for another!":
-    //             [0,["END GAME", "OLD FRIENDS", "OLD FRIENDS", "OPPOSITES", "EXES"]]
+    //             [0,["end_game", "old_friends", "old_friends", "opposites", "exes"]]
     //     }
     // },
 };
