@@ -17,12 +17,10 @@ const gameData = {
         "choices": {
             "Let's get started.":
                 [2,["END GAME", "TWINS", "OLD FRIENDS", "GORLS", "SQUADMATES", "(step) BROTHERS", "OPPOSITES", "CONFUSED", "EXES"]],
-            "Cancel.":
-                [0,["END GAME", "TWINS", "OLD FRIENDS", "GORLS", "SQUADMATES", "(step) BROTHERS", "OPPOSITES", "CONFUSED", "EXES"]]
         }
     },
     "2": {
-        "text": "Let's start with something simple. How do you feel about Valentine's Day?",
+        "text": "1.a. How do you feel about Valentine's Day?",
         "image" : "smaller_images/homepage.png",
         "choices": {
             "Hate, hate, hate. Double hate. Loathe entirely.":
@@ -36,7 +34,7 @@ const gameData = {
         }
     },
     "3": {
-        "text": "Cool cool cool cool. Next, what kind of timing are we thinking for this date?",
+        "text": "1.b. What kind of timing are we thinking for this date?",
         "image" : "smaller_images/homepage.png",
         "choices": {
             "6AM-12PM! I love an early morning. I was thinking a sunrise activity could be nice.":
@@ -50,7 +48,7 @@ const gameData = {
         }
     },
     "4": {
-        "text": "Roger. And what kind of non-food activity would you most like to do?",
+        "text": "1.c. What kind of non-food activity would you most like to do?",
         "image" : "smaller_images/homepage.png",
         "choices": {
             "An active activity! A run, some pickle ball, a hike, etc.":
@@ -64,7 +62,7 @@ const gameData = {
         }
     },
     "5": {
-        "text": "Right on. And for the food portion of the date, what are you thinking?",
+        "text": "1.d. And, finally, for the food portion of the date, what are you thinking?",
         "image" : "smaller_images/homepage.png",
         "choices": {
             "Let's pack something for our day. I like the idea of a picnic or some snacks on-the-go.":
@@ -78,7 +76,7 @@ const gameData = {
         }
     },
     "6": {
-        "text": "Great--now let's get personal.\nA green flag of YOURS is...",
+        "text": "2.a. Great. Now let's get personal.\nA green flag of YOURS is...",
         "image" : "smaller_images/homepage.png",
         "choices": {
             "World famous road-trip DJ.":
@@ -92,7 +90,7 @@ const gameData = {
         }
     },
     "7": {
-        "text": "A red flag of YOURS is...",
+        "text": "2.b. A red flag of YOURS is...",
         "image" : "smaller_images/homepage.png",
         "choices": {
             "Has a hard time getting rid of things that absolutely need to be donated/thrown away.":
@@ -106,7 +104,7 @@ const gameData = {
         }
     },
     "8": {
-        "text": "A green flag of MINE (kristen) is...",
+        "text": "2.c. A green flag of MINE (kristen) is...",
         "image" : "smaller_images/homepage.png",
         "choices": {
             "Always makes her bed in the morning.":
@@ -120,7 +118,7 @@ const gameData = {
         }
     },
     "9": {
-        "text": "A red flag of MINE (kristen) is...",
+        "text": "2.d. A red flag of MINE (kristen) is...",
         "image" : "smaller_images/homepage.png",
         "choices": {
             "Thinks salt and pepper is `spicy`.":
@@ -134,7 +132,7 @@ const gameData = {
         }
     },
     "10": {
-        "text": "A red flag of MINE (kristen) is...",
+        "text": "----A red flag of MINE (kristen) is...",
         "image" : "smaller_images/homepage.png",
         "choices": {
             "Thinks salt and pepper is `spicy`.":
