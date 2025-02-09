@@ -237,9 +237,6 @@ const gameData = {
     //             [0,["END GAME", "OLD FRIENDS", "OLD FRIENDS", "OPPOSITES", "EXES"]]
     //     }
     // },
-    "0" : {
-
-    }
 };
 
 let currentState = 1;
