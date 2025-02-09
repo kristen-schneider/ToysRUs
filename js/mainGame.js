@@ -208,6 +208,9 @@ const gameData = {
             "With plans for another!":
                 [0,["END GAME", "OLD FRIENDS", "OLD FRIENDS", "OPPOSITES", "EXES"]]
         }
+    },
+    "0" : {
+
     }
 };
 
