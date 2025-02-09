@@ -131,76 +131,108 @@ const gameData = {
                 [10,["end_game", "end_game", "old_friends", "squadmates"]]
         }
     },
+
     "10": {
-        "text": "...",
+        "text": "9/20 RAPID FIRE\n...",
         "image" : "smaller_images/homepage.png",
         "choices": {
-            "Thinks salt and pepper is `spicy`.":
+            "a.":
                 [11,["end_game", "gorls", "gorls", "squadmates", "step_brothers", "step_brothers", "step_brothers", "exes"]],
-            "No sense of direction--can get lost in her own house.":
+            "b":
                 [11,["twins", "twins", "twins", "gorls", "confused", "confused", "confused", "exes", "exes"]],
-            "Can take care of a kid or a pet for weeks; but will kill a plant overnight.":
+            "c":
                 [11,["old_friends", "old_friends", "squadmates", "opposites", "opposites", "opposites"]],
-            "Starts a TV show/movie and never finishes it.":
+            "d":
                 [11,["end_game", "end_game", "old_friends", "squadmates"]]
         }
     },
     "11": {
-        "text": "17/20. Before I tell you what we are...you first. What do YOU think we are??? HM?\n",
+        "text": "10/20 RAPID FIRE\nPick a color scheme",
         "image" : "smaller_images/homepage.png",
         "choices": {
-            "Always makes her bed in the morning.":
-                [0,["confused", "confused", "squadmates", "twins", "twins", "twins", "end_game"]],
-            "Likes grocery shopping. Will leave your party to go pick up some more things at the grocery store.":
-                [0,["exes", "confused", "step_brothers", "step_brothers", "squadmates", "old_friends"]],
-            "Has a notes app for every occasion.":
-                [0,["step_brothers", "old_friends", "old_friends", "old_friends", "end_game", "end_game"]],
-            "Good at finding out information about your crush.":
-                [0,["exes", "exes", "opposites", "opposites", "opposites", "squadmates", "gorls", "gorls", "gorls"]]
+            "a":
+                [12,["end_game", "end_game", "end_game", "gorls", "gorls", "gorls", "twins", "twins", "twins", "old_friends", "old_friends", "old_friends", "opposites", "opposites", "opposites", "exes", "exes", "exes"]],
+            "b":
+                [12,["end_game", "end_game", "end_game", "gorls", "gorls", "gorls", "twins", "twins", "twins", "old_friends", "old_friends", "old_friends", "opposites", "opposites", "opposites", "exes", "exes", "exes"]],
+            "c":
+                [12,["end_game", "end_game", "end_game", "gorls", "gorls", "gorls", "twins", "twins", "twins", "old_friends", "old_friends", "old_friends", "opposites", "opposites", "opposites", "exes", "exes", "exes"]],
+            "d":
+                [12,["end_game", "end_game", "end_game", "gorls", "gorls", "gorls", "twins", "twins", "twins", "old_friends", "old_friends", "old_friends", "opposites", "opposites", "opposites", "exes", "exes", "exes"]]
         }
     },
-    // "": {
-    //     "text": "SOLID CHOICE. Let's do 3 rapid fire (seemingly unimportant) questions.\n1: Pick a color scheme",
+    "12": {
+        "text": "11/20 RAPID FIRE\nPick a favorite episode from The Office.",
+        "image" : "smaller_images/homepage.png",
+        "choices": {
+            "The one where Meredith gets hit by Michael's car, and also rabies.":
+                [13,["old_friends", "squadmates", "opposites", "confused", "confused", "confused", "exes"]],
+            "The one where Michael hosts a dinner party and shows off his plasma screen TV.":
+                [13,["end_game", "twins", "twins", "twins", "step_brothers", "step_brothers"]],
+            "The Christmas party where Jim gives Pam a teapot.":
+                [13,["end_game", "gorls", "gorls", "gorls", "opposites", "exes"]],
+            "The Dundies, when Pam gets banned from Chili's.":
+                [13,["end_game", "old_friends", "old_friends", "squadmates", "squadmates", "step_brothers", "opposites", "exes"]]
+        }
+    },
+    "13": {
+        "text": "12/20. RAPID FIRE\nPick a state in which you would NEVER want to live.",
+        "image" : "smaller_images/homepage.png",
+        "choices": {
+            "California":
+                [0,["opposites", "opposites", "step_brothers", "step_brothers", "old_friends", "old_friends"]],
+            "Florida":
+                [0,["step_brothers", "squadmates", "squadmates", "twins", "twins", "twins", "end_game", "end_game", "end_game"]],
+            "Iowa":
+                [0,["exes", "exes", "exes", "confused", "confused", "confused", "gorls", "gorls"]],
+            "New Jersey":
+                [0,["opposites", "squadmates", "gorls", "old_friends"]]
+        }
+    },
+
+
+    // "10": {
+    //     "text": "...",
     //     "image" : "smaller_images/homepage.png",
     //     "choices": {
-    //         "":
-    //             [7,["end_game", "end_game", "end_game", "gorls", "gorls", "gorls", "twins", "twins", "twins", "old_friends", "old_friends", "old_friends", "opposites", "opposites", "opposites", "exes", "exes", "exes"]],
-    //         "":
-    //             [7,["end_game", "end_game", "end_game", "gorls", "gorls", "gorls", "twins", "twins", "twins", "old_friends", "old_friends", "old_friends", "opposites", "opposites", "opposites", "exes", "exes", "exes"]],
-    //         "":
-    //             [7,["end_game", "end_game", "end_game", "gorls", "gorls", "gorls", "twins", "twins", "twins", "old_friends", "old_friends", "old_friends", "opposites", "opposites", "opposites", "exes", "exes", "exes"]],
-    //         "":
-    //             [7,["end_game", "end_game", "end_game", "gorls", "gorls", "gorls", "twins", "twins", "twins", "old_friends", "old_friends", "old_friends", "opposites", "opposites", "opposites", "exes", "exes", "exes"]]
+    //         "Thinks salt and pepper is `spicy`.":
+    //             [11,["end_game", "gorls", "gorls", "squadmates", "step_brothers", "step_brothers", "step_brothers", "exes"]],
+    //         "No sense of direction--can get lost in her own house.":
+    //             [11,["twins", "twins", "twins", "gorls", "confused", "confused", "confused", "exes", "exes"]],
+    //         "Can take care of a kid or a pet for weeks; but will kill a plant overnight.":
+    //             [11,["old_friends", "old_friends", "squadmates", "opposites", "opposites", "opposites"]],
+    //         "Starts a TV show/movie and never finishes it.":
+    //             [11,["end_game", "end_game", "old_friends", "squadmates"]]
     //     }
     // },
-    // "7": {
-    //     "text": "2: Pick a favorite episode from The Office.",
+    // "10": {
+    //     "text": "...",
     //     "image" : "smaller_images/homepage.png",
     //     "choices": {
-    //         "The one where Meredith gets hit by Michael's car, and also rabies.":
-    //             [8,["old_friends", "squadmates", "opposites", "confused", "confused", "confused", "exes"]],
-    //         "The one where Michael hosts a dinner party and shows off his plasma screen TV.":
-    //             [8,["end_game", "twins", "twins", "twins", "step_brothers", "step_brothers"]],
-    //         "The Christmas party where Jim gives Pam a teapot.":
-    //             [8,["end_game", "gorls", "gorls", "gorls", "opposites", "exes"]],
-    //         "The Dundies, when Pam gets banned from Chili's.":
-    //             [8,["end_game", "old_friends", "old_friends", "squadmates", "squadmates", "step_brothers", "opposites", "exes"]]
+    //         "Thinks salt and pepper is `spicy`.":
+    //             [11,["end_game", "gorls", "gorls", "squadmates", "step_brothers", "step_brothers", "step_brothers", "exes"]],
+    //         "No sense of direction--can get lost in her own house.":
+    //             [11,["twins", "twins", "twins", "gorls", "confused", "confused", "confused", "exes", "exes"]],
+    //         "Can take care of a kid or a pet for weeks; but will kill a plant overnight.":
+    //             [11,["old_friends", "old_friends", "squadmates", "opposites", "opposites", "opposites"]],
+    //         "Starts a TV show/movie and never finishes it.":
+    //             [11,["end_game", "end_game", "old_friends", "squadmates"]]
     //     }
     // },
-    // "8": {
-    //     "text": "3: Pick a state in which you would NEVER want to live.",
+    // "11": {
+    //     "text": "17/20. Before I tell you what we are...you first. What do YOU think we are??? HM?\n",
     //     "image" : "smaller_images/homepage.png",
     //     "choices": {
-    //         "California":
-    //             [9,["opposites", "opposites", "step_brothers", "step_brothers", "old_friends", "old_friends"]],
-    //         "Florida":
-    //             [9,["step_brothers", "squadmates", "squadmates", "twins", "twins", "twins", "end_game", "end_game", "end_game"]],
-    //         "Iowa":
-    //             [9,["exes", "exes", "exes", "confused", "confused", "confused", "gorls", "gorls"]],
-    //         "New Jersey":
-    //             [9,["opposites", "squadmates", "gorls", "old_friends"]]
+    //         "Always makes her bed in the morning.":
+    //             [0,["confused", "confused", "squadmates", "twins", "twins", "twins", "end_game"]],
+    //         "Likes grocery shopping. Will leave your party to go pick up some more things at the grocery store.":
+    //             [0,["exes", "confused", "step_brothers", "step_brothers", "squadmates", "old_friends"]],
+    //         "Has a notes app for every occasion.":
+    //             [0,["step_brothers", "old_friends", "old_friends", "old_friends", "end_game", "end_game"]],
+    //         "Good at finding out information about your crush.":
+    //             [0,["exes", "exes", "opposites", "opposites", "opposites", "squadmates", "gorls", "gorls", "gorls"]]
     //     }
     // },
+
     // "13": {
     //     "text": "If you were given a free ticket to outer space, would you take it?",
     //     "image" : "smaller_images/homepage.png",
@@ -293,8 +325,8 @@ function revealMostSelectedVegetable() {
     const storyImage = document.getElementById('story-image');
     const text = document.getElementById('story-text');
     const choicesContainer = document.getElementById('choices');
-    const veggieImagePath = 'smaller_images/id_cards/${maxVeggie}.png';
-    // const veggieImagePath = 'smaller_images/id_cards/homepage.png';
+    const veggieImagePath = `smaller_images/id_cards/${maxVeggie}.png`;
+    // const veggieImagePath = 'smaller_images/id_cards/confused.png';
     //
 
     // Preload the image
