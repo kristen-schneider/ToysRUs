@@ -16,9 +16,9 @@ const gameData = {
         "image" : "smaller_images/homepage.png",
         "choices": {
             "Let's get started.":
-                [2,[]],
+                [2,["END GAME", "TWINS", "OLD FRIENDS", "GORLS", "SQUADMATES", "(step) BROTHERS", "OPPOSITES", "CONFUSED", "EXES"]],
             "Cancel.":
-                [0,[]]
+                [0,["END GAME", "TWINS", "OLD FRIENDS", "GORLS", "SQUADMATES", "(step) BROTHERS", "OPPOSITES", "CONFUSED", "EXES"]]
         }
     },
     "2": {
@@ -78,137 +78,165 @@ const gameData = {
         }
     },
     "6": {
-        "text": "SOLID CHOICE. Let's do 3 rapid fire (seemingly unimportant) questions.\n1: Pick a color scheme",
-        "image" : "smaller_images/homepage.png",
-        "choices": {
-            "":
-                [7,[]],
-            "":
-                [7,[]],
-            "":
-                [7,[]],
-            "":
-                [7,[]]
-        }
-    },
-    "7": {
-        "text": "2: Pick a favorite episode from The Office.",
-        "image" : "smaller_images/homepage.png",
-        "choices": {
-            "The one where Meredith gets hit by Michael's car, and also rabies.":
-                [8,["OLD FRIENDS", "SQUADMATES", "OPPOSITES", "CONFUSED", "CONFUSED", "CONFUSED", "EXES"]],
-            "The one where Michael hosts a dinner party and shows off his plasma screen TV.":
-                [8,["END GAME", "TWINS", "TWINS", "TWINS", "(step) BROTHERS", "(step) BROTHERS"]],
-            "The Christmas party where Jim gives Pam a teapot.":
-                [8,["END GAME", "GORLS", "GORLS", "GORLS", "OPPOSITES", "EXES"]],
-            "The Dundies, when Pam gets banned from Chili's.":
-                [8,["END GAME", "OLD FRIENDS", "OLD FRIENDS", "SQUADMATES", "SQUADMATES", "(step) BROTHERS", "OPPOSITES", "EXES"]]
-        }
-    },
-    "8": {
-        "text": "3: Pick a state in which you would NEVER want to live.",
-        "image" : "smaller_images/homepage.png",
-        "choices": {
-            "California":
-                [9,["OPPOSITES", "OPPOSITES", "(step) BROTHERS", "(step) BROTHERS", "OLD FRIENDS", "OLD FRIENDS"]],
-            "Florida":
-                [9,["(step) BROTHERS", "SQUADMATES", "SQUADMATES", "TWINS", "TWINS", "TWINS", "END GAME", "END GAME", "END GAME"]],
-            "Iowa":
-                [9,["EXES", "EXES", "EXES", "CONFUSED", "CONFUSED", "CONFUSED", "GORLS", "GORLS"]],
-            "New Jersey":
-                [9,["OPPOSITES", "SQUADMATES", "GORLS", "OLD FRIENDS"]]
-        }
-    },
-    "9": {
-        "text": "Very interesting. Now, let's switch to more important things.\nA green flag of YOURS is...",
+        "text": "Great--now let's get personal.\nA green flag of YOURS is...",
         "image" : "smaller_images/homepage.png",
         "choices": {
             "World famous road-trip DJ.":
-                [10,["EXES", "EXES", "EXES", "CONFUSED", "OPPOSITES", "(step) BROTHERS", "SQUADMATES", "SQUADMATES", "SQUADMATES", "GORLS", "TWINS", "TWINS"]],
+                [7,["EXES", "EXES", "EXES", "CONFUSED", "OPPOSITES", "(step) BROTHERS", "SQUADMATES", "SQUADMATES", "SQUADMATES", "GORLS", "TWINS", "TWINS"]],
             "Knows what medicine to take when you're feeling sick.":
-                [10,["GORLS", "GORLS", "OLD FRIENDS", "OLD FRIENDS", "OLD FRIENDS"]],
+                [7,["GORLS", "GORLS", "OLD FRIENDS", "OLD FRIENDS", "OLD FRIENDS"]],
             "Has a quote from The Office for any occasion":
-                [10,["OPPOSITES", "OPPOSITES", "(step) BROTHERS", "(step) BROTHERS", "TWINS"]],
+                [7,["OPPOSITES", "OPPOSITES", "(step) BROTHERS", "(step) BROTHERS", "TWINS"]],
             "Really good at doing taxes. (Will do your wife's (my) taxes.)":
-                [10,["CONFUSED", "CONFUSED", "END GAME", "END GAME", "END GAME"]]
+                [7,["CONFUSED", "CONFUSED", "END GAME", "END GAME", "END GAME"]]
         }
     },
-    "10": {
+    "7": {
         "text": "A red flag of YOURS is...",
         "image" : "smaller_images/homepage.png",
         "choices": {
             "Has a hard time getting rid of things that absolutely need to be donated/thrown away.":
-                [11,["OLD FRIENDS", "OPPOSITES", "OPPOSITES"]],
+                [8,["OLD FRIENDS", "OPPOSITES", "OPPOSITES"]],
             "Sends too many memes/tiktok videos.":
-                [11,["TWINS", "OLD FRIENDS", "OLD FRIENDS", "GORLS", "GORLS", "GORLS", "OPPOSITES", "CONFUSED", "CONFUSED"]],
+                [8,["TWINS", "OLD FRIENDS", "OLD FRIENDS", "GORLS", "GORLS", "GORLS", "OPPOSITES", "CONFUSED", "CONFUSED"]],
             "Takes too long to order at a restaurant and always asks for the server's recommendation.":
-                [11,["END GAME", "END GAME", "END GAME", "(step) BROTHERS", "OPPOSITES"]],
+                [8,["END GAME", "END GAME", "END GAME", "(step) BROTHERS", "OPPOSITES"]],
             "Thinks 'CTRL-C' is hacking and has a lot of opinions about AI.":
-                [11,["TWINS", "TWINS", "SQUADMATES", "SQUADMATES", "SQUADMATES", "(step) BROTHERS", "(step) BROTHERS", "CONFUSED", "EXES", "EXES", "EXES"]]
+                [8,["TWINS", "TWINS", "SQUADMATES", "SQUADMATES", "SQUADMATES", "(step) BROTHERS", "(step) BROTHERS", "CONFUSED", "EXES", "EXES", "EXES"]]
         }
     },
-    "11": {
+    "8": {
         "text": "A green flag of MINE (kristen) is...",
         "image" : "smaller_images/homepage.png",
         "choices": {
             "Always makes her bed in the morning.":
-                [12,["CONFUSED", "CONFUSED", "SQUADMATES", "TWINS", "TWINS", "TWINS", "END GAME"]],
+                [9,["CONFUSED", "CONFUSED", "SQUADMATES", "TWINS", "TWINS", "TWINS", "END GAME"]],
             "Likes grocery shopping. Will leave your party to go pick up some more things at the grocery store.":
-                [12,["EXES", "CONFUSED", "(step) BROTHERS", "(step) BROTHERS", "SQUADMATES", "OLD FRIENDS"]],
+                [9,["EXES", "CONFUSED", "(step) BROTHERS", "(step) BROTHERS", "SQUADMATES", "OLD FRIENDS"]],
             "Has a notes app for every occasion.":
-                [12,["(step) BROTHERS", "OLD FRIENDS", "OLD FRIENDS", "OLD FRIENDS", "END GAME", "END GAME"]],
+                [9,["(step) BROTHERS", "OLD FRIENDS", "OLD FRIENDS", "OLD FRIENDS", "END GAME", "END GAME"]],
             "Good at finding out information about your crush.":
-                [12,["EXES", "EXES", "OPPOSITES", "OPPOSITES", "OPPOSITES", "SQUADMATES", "GORLS", "GORLS", "GORLS"]]
+                [9,["EXES", "EXES", "OPPOSITES", "OPPOSITES", "OPPOSITES", "SQUADMATES", "GORLS", "GORLS", "GORLS"]]
         }
     },
-    "12": {
+    "9": {
         "text": "A red flag of MINE (kristen) is...",
         "image" : "smaller_images/homepage.png",
         "choices": {
             "Thinks salt and pepper is `spicy`.":
-                [13,["END GAME", "GORLS", "GORLS", "SQUADMATES", "(step) BROTHERS", "(step) BROTHERS", "(step) BROTHERS", "EXES"]],
+                [10,["END GAME", "GORLS", "GORLS", "SQUADMATES", "(step) BROTHERS", "(step) BROTHERS", "(step) BROTHERS", "EXES"]],
             "No sense of direction--can get lost in her own house.":
-                [13,["TWINS", "TWINS", "TWINS", "GORLS", "CONFUSED", "CONFUSED", "CONFUSED", "EXES", "EXES"]],
+                [10,["TWINS", "TWINS", "TWINS", "GORLS", "CONFUSED", "CONFUSED", "CONFUSED", "EXES", "EXES"]],
             "Can take care of a kid or a pet for weeks; but will kill a plant overnight.":
-                [13,["OLD FRIENDS", "OLD FRIENDS", "SQUADMATES", "OPPOSITES", "OPPOSITES", "OPPOSITES"]],
+                [10,["OLD FRIENDS", "OLD FRIENDS", "SQUADMATES", "OPPOSITES", "OPPOSITES", "OPPOSITES"]],
             "Starts a TV show/movie and never finishes it.":
-                [13,["END GAME", "END GAME", "OLD FRIENDS", "SQUADMATES"]]
+                [10,["END GAME", "END GAME", "OLD FRIENDS", "SQUADMATES"]]
         }
     },
-    "13": {
-        "text": "If you were given a free ticket to outer space, would you take it?",
+    "10": {
+        "text": "A red flag of MINE (kristen) is...",
         "image" : "smaller_images/homepage.png",
         "choices": {
-            "Yes.":
-                [14,["EXES", "CONFUSED", "OPPOSITES", "(step) BROTHERS", "SQUADMATES"]],
-            "No.":
-                [14,["GORLS", "OLD FRIENDS", "TWINS", "END GAME"]],
+            "Thinks salt and pepper is `spicy`.":
+                [11,["END GAME", "GORLS", "GORLS", "SQUADMATES", "(step) BROTHERS", "(step) BROTHERS", "(step) BROTHERS", "EXES"]],
+            "No sense of direction--can get lost in her own house.":
+                [11,["TWINS", "TWINS", "TWINS", "GORLS", "CONFUSED", "CONFUSED", "CONFUSED", "EXES", "EXES"]],
+            "Can take care of a kid or a pet for weeks; but will kill a plant overnight.":
+                [11,["OLD FRIENDS", "OLD FRIENDS", "SQUADMATES", "OPPOSITES", "OPPOSITES", "OPPOSITES"]],
+            "Starts a TV show/movie and never finishes it.":
+                [11,["END GAME", "END GAME", "OLD FRIENDS", "SQUADMATES"]]
         }
     },
-    "14": {
-        "text": "Do you believe in ghosts?",
+    "11": {
+        "text": "LAST QUESTION",
         "image" : "smaller_images/homepage.png",
         "choices": {
-            "Yes.":
-                [15,["CONFUSED", "(step) BROTHERS", "SQUADMATES", "GORLS", "TWINS"]],
-            "No.":
-                [15,["EXES", "OPPOSITES", "OLD FRIENDS", "END GAME"]],
+            "Always makes her bed in the morning.":
+                [0,["CONFUSED", "CONFUSED", "SQUADMATES", "TWINS", "TWINS", "TWINS", "END GAME"]],
+            "Likes grocery shopping. Will leave your party to go pick up some more things at the grocery store.":
+                [0,["EXES", "CONFUSED", "(step) BROTHERS", "(step) BROTHERS", "SQUADMATES", "OLD FRIENDS"]],
+            "Has a notes app for every occasion.":
+                [0,["(step) BROTHERS", "OLD FRIENDS", "OLD FRIENDS", "OLD FRIENDS", "END GAME", "END GAME"]],
+            "Good at finding out information about your crush.":
+                [0,["EXES", "EXES", "OPPOSITES", "OPPOSITES", "OPPOSITES", "SQUADMATES", "GORLS", "GORLS", "GORLS"]]
         }
     },
-    "15": {
-        "text": "LAST ONE. What is the best way to end a date?",
-        "image" : "smaller_images/homepage.png",
-        "choices": {
-            "A bubble bath.\nNot together...OBVIOUSLY...\nbut I am going to take one in my bathtub,\nand you can take one in yours (if you want).":
-                [0,["END GAME", "END GAME", "TWINS"]],
-            "A secret handshake.":
-                [0,["TWINS", "SQUADMATES", "SQUADMATES", "(step) BROTHERS", "(step) BROTHERS", "(step) BROTHERS", "OPPOSITES", "CONFUSED", "CONFUSED", "CONFUSED", "EXES"]],
-            "Hanging out with friends and debriefing.":
-                [0,["TWINS", "OLD FRIENDS", "GORLS", "GORLS", "GORLS", "SQUADMATES", "OPPOSITES", "EXES"]],
-            "With plans for another!":
-                [0,["END GAME", "OLD FRIENDS", "OLD FRIENDS", "OPPOSITES", "EXES"]]
-        }
-    },
+    // "": {
+    //     "text": "SOLID CHOICE. Let's do 3 rapid fire (seemingly unimportant) questions.\n1: Pick a color scheme",
+    //     "image" : "smaller_images/homepage.png",
+    //     "choices": {
+    //         "":
+    //             [7,["END GAME", "END GAME", "END GAME", "GORLS", "GORLS", "GORLS", "TWINS", "TWINS", "TWINS", "OLD FRIENDS", "OLD FRIENDS", "OLD FRIENDS", "OPPOSITES", "OPPOSITES", "OPPOSITES", "EXES", "EXES", "EXES"]],
+    //         "":
+    //             [7,["END GAME", "END GAME", "END GAME", "GORLS", "GORLS", "GORLS", "TWINS", "TWINS", "TWINS", "OLD FRIENDS", "OLD FRIENDS", "OLD FRIENDS", "OPPOSITES", "OPPOSITES", "OPPOSITES", "EXES", "EXES", "EXES"]],
+    //         "":
+    //             [7,["END GAME", "END GAME", "END GAME", "GORLS", "GORLS", "GORLS", "TWINS", "TWINS", "TWINS", "OLD FRIENDS", "OLD FRIENDS", "OLD FRIENDS", "OPPOSITES", "OPPOSITES", "OPPOSITES", "EXES", "EXES", "EXES"]],
+    //         "":
+    //             [7,["END GAME", "END GAME", "END GAME", "GORLS", "GORLS", "GORLS", "TWINS", "TWINS", "TWINS", "OLD FRIENDS", "OLD FRIENDS", "OLD FRIENDS", "OPPOSITES", "OPPOSITES", "OPPOSITES", "EXES", "EXES", "EXES"]]
+    //     }
+    // },
+    // "7": {
+    //     "text": "2: Pick a favorite episode from The Office.",
+    //     "image" : "smaller_images/homepage.png",
+    //     "choices": {
+    //         "The one where Meredith gets hit by Michael's car, and also rabies.":
+    //             [8,["OLD FRIENDS", "SQUADMATES", "OPPOSITES", "CONFUSED", "CONFUSED", "CONFUSED", "EXES"]],
+    //         "The one where Michael hosts a dinner party and shows off his plasma screen TV.":
+    //             [8,["END GAME", "TWINS", "TWINS", "TWINS", "(step) BROTHERS", "(step) BROTHERS"]],
+    //         "The Christmas party where Jim gives Pam a teapot.":
+    //             [8,["END GAME", "GORLS", "GORLS", "GORLS", "OPPOSITES", "EXES"]],
+    //         "The Dundies, when Pam gets banned from Chili's.":
+    //             [8,["END GAME", "OLD FRIENDS", "OLD FRIENDS", "SQUADMATES", "SQUADMATES", "(step) BROTHERS", "OPPOSITES", "EXES"]]
+    //     }
+    // },
+    // "8": {
+    //     "text": "3: Pick a state in which you would NEVER want to live.",
+    //     "image" : "smaller_images/homepage.png",
+    //     "choices": {
+    //         "California":
+    //             [9,["OPPOSITES", "OPPOSITES", "(step) BROTHERS", "(step) BROTHERS", "OLD FRIENDS", "OLD FRIENDS"]],
+    //         "Florida":
+    //             [9,["(step) BROTHERS", "SQUADMATES", "SQUADMATES", "TWINS", "TWINS", "TWINS", "END GAME", "END GAME", "END GAME"]],
+    //         "Iowa":
+    //             [9,["EXES", "EXES", "EXES", "CONFUSED", "CONFUSED", "CONFUSED", "GORLS", "GORLS"]],
+    //         "New Jersey":
+    //             [9,["OPPOSITES", "SQUADMATES", "GORLS", "OLD FRIENDS"]]
+    //     }
+    // },
+    // "13": {
+    //     "text": "If you were given a free ticket to outer space, would you take it?",
+    //     "image" : "smaller_images/homepage.png",
+    //     "choices": {
+    //         "Yes.":
+    //             [14,["EXES", "CONFUSED", "OPPOSITES", "(step) BROTHERS", "SQUADMATES"]],
+    //         "No.":
+    //             [14,["GORLS", "OLD FRIENDS", "TWINS", "END GAME"]],
+    //     }
+    // },
+    // "14": {
+    //     "text": "Do you believe in ghosts?",
+    //     "image" : "smaller_images/homepage.png",
+    //     "choices": {
+    //         "Yes.":
+    //             [15,["CONFUSED", "(step) BROTHERS", "SQUADMATES", "GORLS", "TWINS"]],
+    //         "No.":
+    //             [15,["EXES", "OPPOSITES", "OLD FRIENDS", "END GAME"]],
+    //     }
+    // },
+    // "15": {
+    //     "text": "LAST ONE. What is the best way to end a date?",
+    //     "image" : "smaller_images/homepage.png",
+    //     "choices": {
+    //         "A bubble bath.\nNot together...OBVIOUSLY...\nbut I am going to take one in my bathtub,\nand you can take one in yours (if you want).":
+    //             [0,["END GAME", "END GAME", "TWINS"]],
+    //         "A secret handshake.":
+    //             [0,["TWINS", "SQUADMATES", "SQUADMATES", "(step) BROTHERS", "(step) BROTHERS", "(step) BROTHERS", "OPPOSITES", "CONFUSED", "CONFUSED", "CONFUSED", "EXES"]],
+    //         "Hanging out with friends and debriefing.":
+    //             [0,["TWINS", "OLD FRIENDS", "GORLS", "GORLS", "GORLS", "SQUADMATES", "OPPOSITES", "EXES"]],
+    //         "With plans for another!":
+    //             [0,["END GAME", "OLD FRIENDS", "OLD FRIENDS", "OPPOSITES", "EXES"]]
+    //     }
+    // },
     "0" : {
 
     }
