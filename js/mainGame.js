@@ -15,7 +15,7 @@ const gameData = {
         "text": "<3",
         "image" : "smaller_images/homepage.png",
         "choices": {
-            "Let's get started.":
+            "Agree to terms and conditions.":
                 [2,["end_game", "TWINS", "old_friends", "gorls", "squadmates", "step_brothers", "opposites", "confused", "exes"]],
         }
     },
@@ -76,88 +76,88 @@ const gameData = {
         }
     },
     "6": {
-        "text": "5/20. VERY VERY PERSONAL\nA green flag of YOURS is...",
+        "text": "5/20. FLAGS\nA green flag of YOURS is...",
         "image" : "smaller_images/homepage.png",
         "choices": {
             "World famous road-trip DJ.":
-                [7,["exes", "exes", "exes", "confused", "opposites", "step_brothers", "squadmates", "squadmates", "squadmates", "gorls", "TWINS", "TWINS"]],
-            "Knows what medicine to take when you're feeling sick.":
-                [7,["gorls", "gorls", "old_friends", "old_friends", "old_friends"]],
-            "Has a quote from The Office for any occasion":
-                [7,["opposites", "opposites", "step_brothers", "step_brothers", "twins"]],
-            "Really good at doing taxes. (Will do your wife's (my) taxes.)":
-                [7,["confused", "confused", "end_game", "end_game", "end_game"]]
+                [7,["twins", "twins", "twins", "old_friends", "gorls", "gorls", "squadmates", "exes", "exes", "exes"]],
+            "Always knows what medicine to take when you're feeling sick.":
+                [7,["old_friends", "old_friends", "gorls", "opposites"]],
+            "Has a dad joke for any occasion.":
+                [7,["step_brothers", "step_brothers", "end_game", "squadmates", "squadmates", "opposites", "opposites", "confused", "confused"]],
+            "Can pull off a mustache.":
+                [7,["end_game", "end_game", "step_brothers", "confused"]]
         }
     },
     "7": {
-        "text": "6/20. VERY VERY PERSONAL\nA red flag of YOURS is...",
+        "text": "6/20. FLAGS\nA red flag of YOURS is...",
         "image" : "smaller_images/homepage.png",
         "choices": {
-            "Has a hard time getting rid of things that absolutely need to be donated/thrown away.":
-                [8,["old_friends", "opposites", "opposites"]],
+            "Keeps things `in case they come in handy later.`":
+                [8,["exes", "opposites", "opposites", "opposites", "squadmates", "gorls", "gorls", "old_friends"]],
             "Sends too many memes/tiktok videos.":
-                [8,["twins", "old_friends", "old_friends", "gorls", "gorls", "gorls", "opposites", "confused", "confused"]],
+                [8,["confused", "confused", "step_brothers", "squadmates", "squadmates", "gorls", "old_friends", "old_friends"]],
             "Takes too long to order at a restaurant and always asks for the server's recommendation.":
-                [8,["end_game", "end_game", "end_game", "step_brothers", "opposites"]],
+                [8,["end_game", "end_game", "end_game"]],
             "Thinks 'CTRL-C' is hacking and has a lot of opinions about AI.":
-                [8,["twins", "twins", "squadmates", "squadmates", "squadmates", "step_brothers", "step_brothers", "confused", "exes", "exes", "exes"]]
+                [8,["exes", "exes", "confused", "step_brothers", "step_brothers", "twins", "twins", "twins"]]
         }
     },
     "8": {
-        "text": "7/20. VERY VERY PERSONAL\nA green flag of MINE (kristen) is...",
+        "text": "7/20. FLAGS\nA green flag of MINE (kristen) is...",
         "image" : "smaller_images/homepage.png",
         "choices": {
             "Always makes her bed in the morning.":
-                [9,["confused", "confused", "squadmates", "twins", "twins", "twins", "end_game"]],
-            "Likes grocery shopping. Will leave your party to go pick up some more things at the grocery store.":
-                [9,["exes", "confused", "step_brothers", "step_brothers", "squadmates", "old_friends"]],
-            "Has a notes app for every occasion.":
-                [9,["step_brothers", "old_friends", "old_friends", "old_friends", "end_game", "end_game"]],
-            "Good at finding out information about your crush.":
-                [9,["exes", "exes", "opposites", "opposites", "opposites", "squadmates", "gorls", "gorls", "gorls"]]
+                [9,["twins", "old_friends", "squadmates", "squadmates", "step_brothers", "confused", "confused", "exes"]],
+            "`Very Good`--FICO Score.":
+                [9,["end_game", "step_brothers", "step_brothers", "opposites", "opposites", "opposites", "confused", "exes", "exes"]],
+            "Hasn't done very many things. Lots of opportunities to try new things.":
+                [9,["end_game", "end_game", "old_friends"]],
+            "Knows how to french braid. And fishtail braid. And dragon braid.":
+                [9,["twins", "twins", "old_friends", "gorls", "gorls", "gorls", "squadmates"]]
         }
     },
     "9": {
-        "text": "8/20. VERY VERY PERSONAL\nA red flag of MINE (kristen) is...",
+        "text": "8/20. FLAGS\nA red flag of MINE (kristen) is...",
         "image" : "smaller_images/homepage.png",
         "choices": {
-            "Thinks salt and pepper is `spicy`.":
-                [10,["end_game", "gorls", "gorls", "squadmates", "step_brothers", "step_brothers", "step_brothers", "exes"]],
-            "No sense of direction--can get lost in her own house.":
-                [10,["twins", "twins", "twins", "gorls", "confused", "confused", "confused", "exes", "exes"]],
-            "Can take care of a kid or a pet for weeks; but will kill a plant overnight.":
-                [10,["old_friends", "old_friends", "squadmates", "opposites", "opposites", "opposites"]],
-            "Starts a TV show/movie and never finishes it.":
-                [10,["end_game", "end_game", "old_friends", "squadmates"]]
+            "Thinks pepper is `spicy`.":
+                [10,["exes", "confused", "confused", "step_brothers", "step_brothers", "squadmates", "old_friends", "end_game",]],
+            "Doesn't water her houseplants because it gives the home a 'Time Burton' vibe.":
+                [10,["exes", "squadmates", "old_friends", "twins", "twins", "twins", "end_game"]],
+            "Orders a drink/coffee/tea for the vibes, but only takes 3 sips.":
+                [10,["confused", "opposites", "opposites", "step_brothers", "squadmates", "gorls", "gorls", "gorls"]],
+            "Does not have a 5 year plan (or a 5 day plan).":
+                [10,["exes", "opposites", "old_friends", "end_game"]]
         }
     },
 
     "10": {
-        "text": "9/20 RAPID FIRE\n...",
+        "text": "9/20 RAPID FIRE\nThese are all on my 'art' Pinterest Board. Pick one.",
         "image" : "smaller_images/homepage.png",
         "choices": {
-            "a.":
-                [11,["end_game", "gorls", "gorls", "squadmates", "step_brothers", "step_brothers", "step_brothers", "exes"]],
-            "b":
-                [11,["twins", "twins", "twins", "gorls", "confused", "confused", "confused", "exes", "exes"]],
-            "c":
-                [11,["old_friends", "old_friends", "squadmates", "opposites", "opposites", "opposites"]],
-            "d":
-                [11,["end_game", "end_game", "old_friends", "squadmates"]]
+            "Tall Skinny House":
+                [11,["twins", "squadmates", "squadmates", "exes", "exes"]],
+            "Mirror Mirror Mirror":
+                [11,["end_game", "end_game", "twins", "twins", "gorls", "gorls", "gorls"]],
+            "JPG or PDF":
+                [11,["old_friends", "squadmates", "step_brothers", "step_brothers", "opposites", "opposites", "confused", "confused", "confused", "exes"]],
+            "Spilled Milk":
+                [11,["end_game", "old_friends", "old_friends", "step_brothers", "opposites"]]
         }
     },
     "11": {
-        "text": "10/20 RAPID FIRE\nPick a color scheme",
+        "text": "10/20 RAPID FIRE\nPick a topic on which YOU would deliver a TED talk",
         "image" : "smaller_images/homepage.png",
         "choices": {
-            "a":
-                [12,["end_game", "end_game", "end_game", "gorls", "gorls", "gorls", "twins", "twins", "twins", "old_friends", "old_friends", "old_friends", "opposites", "opposites", "opposites", "exes", "exes", "exes"]],
-            "b":
-                [12,["end_game", "end_game", "end_game", "gorls", "gorls", "gorls", "twins", "twins", "twins", "old_friends", "old_friends", "old_friends", "opposites", "opposites", "opposites", "exes", "exes", "exes"]],
-            "c":
-                [12,["end_game", "end_game", "end_game", "gorls", "gorls", "gorls", "twins", "twins", "twins", "old_friends", "old_friends", "old_friends", "opposites", "opposites", "opposites", "exes", "exes", "exes"]],
-            "d":
-                [12,["end_game", "end_game", "end_game", "gorls", "gorls", "gorls", "twins", "twins", "twins", "old_friends", "old_friends", "old_friends", "opposites", "opposites", "opposites", "exes", "exes", "exes"]]
+            "Pop Culture (e.g. How Internet Memes Shape Our Understanding of Society)":
+                [12,["opposites", "opposites", "squadmates", "gorls", "gorls", "gorls"]],
+            "Relationship Advice (e.g. Setting Boundaries Without Sounding Like a Medieval Castle)":
+                [12,["confused", "confused", "confused", "old_friends", "old_friends", "twins", "twins"]],
+            "Science (e.g. The Life Cycle and Behavioral Patterns of a Really Specific Bird No One Has Ever Heard Of)":
+                [12,["opposites", "step_brothers", "twins", "end_game", "end_game", "end_game"]],
+            "Health & Fitness (e.g. Fitness Tracker or Expensive Bracelet? The Truth About Your Steps)":
+                [12,["exes", "exes", "exes", "step_brothers", "step_brothers", "squadmates", "squadmates", "old_friends"]]
         }
     },
     "12": {
@@ -178,95 +178,115 @@ const gameData = {
         "text": "12/20. RAPID FIRE\nPick a state in which you would NEVER want to live.",
         "image" : "smaller_images/homepage.png",
         "choices": {
+            "Massachusetts":
+                [14,["end_game", "end_game", "end_game", "gorls", "exes", "exes"]],
+            "North Carolina":
+                [14,["gorls", "opposites", "exes"]],
+            "Tennessee":
+                [14,["old_friends", "gorls", "squadmates", "squadmates", "squadmates", "step_brothers", "opposites", "opposites", "confused", "confused", "confused"]],
             "California":
-                [0,["opposites", "opposites", "step_brothers", "step_brothers", "old_friends", "old_friends"]],
-            "Florida":
-                [0,["step_brothers", "squadmates", "squadmates", "twins", "twins", "twins", "end_game", "end_game", "end_game"]],
-            "Iowa":
-                [0,["exes", "exes", "exes", "confused", "confused", "confused", "gorls", "gorls"]],
-            "New Jersey":
-                [0,["opposites", "squadmates", "gorls", "old_friends"]]
+                [14,["twins", "twins", "twins", "old_friends", "old_friends", "step_brothers", "step_brothers"]]
         }
     },
+    "14": {
+        "text": "13/20. THIS OR THAT\nChicago OR NYC?",
+        "image": "smaller_images/homepage.png",
+        "choices": {
+            "Chicago":
+                [15,[]],
+            "NYC":
+                [15,[]]
+        }
+    },
+    "15": {
+        "text": "14/20. THIS OR THAT\nSilver OR Gold?",
+        "image": "smaller_images/homepage.png",
+        "choices": {
+            "Silver":
+                [16,["exes", "confused", "end_game", "step_brothers", "squadmates", "opposites"]],
+            "Gold":
+                [16,["twins", "gorls", "old_friends"]]
+        }
+    },
+    "16": {
+        "text": "15/20. THIS OR THAT\nCalvin OR HOBBS?",
+        "image": "smaller_images/homepage.png",
+        "choices": {
+            "Calvin":
+                [17,["end_game", "twins", "exes"]],
+            "Hobbs":
+                [17,["step_brothers", "old_friends", "squadmates", "gorls", "confused", "opposites"]]
+        }
+    },
+    "17": {
+        "text": "16/20. THIS OR THAT\nMountains OR Beach?",
+        "image": "smaller_images/homepage.png",
+        "choices": {
+            "Mountains":
+                [18,["twins", "confused", "step_brothers", "squadmates", "exes"]],
+            "Beach":
+                [18,["end_game", "gorls", "opposites", "old_friends", "opposites"]]
+        }
+    },
+    "18": {
+        "text": "17/20. YOU FIRST\nPick our aesthetic.",
+        "image": "smaller_images/homepage.png",
+        "choices": {
+            "coastal grandmother antique dollhouse":
+                [19,["gorls", "gorls", "twins", "twins"]],
+            "muted saturday morning cartoon nook":
+                [19,["exes", "exes", "exes", "confused", "confused", "opposites", "step_brothers", "step_brothers", "squadmates", "squadmates", "old_friends", "old_friends", "old_friends", "end_game"]],
+            "enchanted forest midnight library":
+                [19,["confused", "opposites", "gorls", "twins"]],
+            "retro board game jazz club":
+                [19,["opposites", "step_brothers", "squadmates", "end_game", "end_game"]]
+        }
+    },
+    "19": {
+        "text": "18/20. YOU FIRST\nPick our home.",
+        "image": "smaller_images/homepage.png",
+        "choices": {
+            "The (Chuck) Bass NYC apartment":
+                [20,["end_game", "gorls", "opposites", "opposites", "opposites", "confused", "exes", "exes", "exes"]],
+            "The Gilmore House in Stars Hollow":
+                [20,["twins", "gorls", "gorls"]],
+            "The Loft from New Girl":
+                [20,["end_game", "end_game", "twins", "squadmates", "squadmates", "step_brothers", "step_brothers"]],
+            "The Magic Treehouse":
+                [20,["twins", "old_friends", "old_friends", "old_friends", "squadmates", "step_brothers", "confused", "confused"]]
 
+        }
+    },
+    "20": {
+        "text": "19/20. YOU FIRST\nPick our Song.",
+        "image": "smaller_images/homepage.png",
+        "choices": {
+            "The Climb // Miley Cyrus":
+                [21,["step_brothers", "twins", "squadmates", "gorls", "gorls", "gorls", "end_game"]],
+            "Duo // Ben Rector":
+                [21,["twins", "end_game", "end_game"]],
+            "I Write Sins Not Tragedies // Panic! At The Disco":
+                [21,["confused", "opposites", "opposites", "twins", "step_brothers", "squadmates", "old_friends", "old_friends"]],
+            "Up Down // T-Pain":
+                [21,["exes", "exes", "exes", "confused", "confused", "opposites", "step_brothers", "squadmates", "old_friends", ]]
 
-    // "10": {
-    //     "text": "...",
-    //     "image" : "smaller_images/homepage.png",
-    //     "choices": {
-    //         "Thinks salt and pepper is `spicy`.":
-    //             [11,["end_game", "gorls", "gorls", "squadmates", "step_brothers", "step_brothers", "step_brothers", "exes"]],
-    //         "No sense of direction--can get lost in her own house.":
-    //             [11,["twins", "twins", "twins", "gorls", "confused", "confused", "confused", "exes", "exes"]],
-    //         "Can take care of a kid or a pet for weeks; but will kill a plant overnight.":
-    //             [11,["old_friends", "old_friends", "squadmates", "opposites", "opposites", "opposites"]],
-    //         "Starts a TV show/movie and never finishes it.":
-    //             [11,["end_game", "end_game", "old_friends", "squadmates"]]
-    //     }
-    // },
-    // "10": {
-    //     "text": "...",
-    //     "image" : "smaller_images/homepage.png",
-    //     "choices": {
-    //         "Thinks salt and pepper is `spicy`.":
-    //             [11,["end_game", "gorls", "gorls", "squadmates", "step_brothers", "step_brothers", "step_brothers", "exes"]],
-    //         "No sense of direction--can get lost in her own house.":
-    //             [11,["twins", "twins", "twins", "gorls", "confused", "confused", "confused", "exes", "exes"]],
-    //         "Can take care of a kid or a pet for weeks; but will kill a plant overnight.":
-    //             [11,["old_friends", "old_friends", "squadmates", "opposites", "opposites", "opposites"]],
-    //         "Starts a TV show/movie and never finishes it.":
-    //             [11,["end_game", "end_game", "old_friends", "squadmates"]]
-    //     }
-    // },
-    // "11": {
-    //     "text": "17/20. Before I tell you what we are...you first. What do YOU think we are??? HM?\n",
-    //     "image" : "smaller_images/homepage.png",
-    //     "choices": {
-    //         "Always makes her bed in the morning.":
-    //             [0,["confused", "confused", "squadmates", "twins", "twins", "twins", "end_game"]],
-    //         "Likes grocery shopping. Will leave your party to go pick up some more things at the grocery store.":
-    //             [0,["exes", "confused", "step_brothers", "step_brothers", "squadmates", "old_friends"]],
-    //         "Has a notes app for every occasion.":
-    //             [0,["step_brothers", "old_friends", "old_friends", "old_friends", "end_game", "end_game"]],
-    //         "Good at finding out information about your crush.":
-    //             [0,["exes", "exes", "opposites", "opposites", "opposites", "squadmates", "gorls", "gorls", "gorls"]]
-    //     }
-    // },
+        }
+    },
+    "21": {
+        "text": "20/20. YOU FIRST\nPick a couples costume for us to wear on Halloween.",
+        "image": "smaller_images/homepage.png",
+        "choices": {
+            "Peanut Butter & Jelly":
+                [0,["old_friends", "gorls", "gorls", "gorls", "opposites", "opposites", "confused", "exes", "exes", "exes"]],
+            "Shaggy & Scooby":
+                [0,["confused", "old_friends", "old_friends", "squadmates", "squadmates", "step_brothers", "step_brothers", "step_brothers", "opposites"]],
+            "Napoleon Dynamite & Deb":
+                [0,["end_game", "end_game"]],
+            "Dinosaur & Sexy Jeff Goldblum":
+                [0,["end_game", "twins", "twins", "twins", "squadmates", "confused"]]
 
-    // "13": {
-    //     "text": "If you were given a free ticket to outer space, would you take it?",
-    //     "image" : "smaller_images/homepage.png",
-    //     "choices": {
-    //         "Yes.":
-    //             [14,["exes", "confused", "opposites", "step_brothers", "squadmates"]],
-    //         "No.":
-    //             [14,["gorls", "old_friends", "twins", "end_game"]],
-    //     }
-    // },
-    // "14": {
-    //     "text": "Do you believe in ghosts?",
-    //     "image" : "smaller_images/homepage.png",
-    //     "choices": {
-    //         "Yes.":
-    //             [15,["confused", "step_brothers", "squadmates", "gorls", "twins"]],
-    //         "No.":
-    //             [15,["exes", "opposites", "old_friends", "end_game"]],
-    //     }
-    // },
-    // "15": {
-    //     "text": "LAST ONE. What is the best way to end a date?",
-    //     "image" : "smaller_images/homepage.png",
-    //     "choices": {
-    //         "A bubble bath.\nNot together...OBVIOUSLY...\nbut I am going to take one in my bathtub,\nand you can take one in yours (if you want).":
-    //             [0,["end_game", "end_game", "twins"]],
-    //         "A secret handshake.":
-    //             [0,["twins", "squadmates", "squadmates", "step_brothers", "step_brothers", "step_brothers", "opposites", "confused", "confused", "confused", "exes"]],
-    //         "Hanging out with friends and debriefing.":
-    //             [0,["twins", "old_friends", "gorls", "gorls", "gorls", "squadmates", "opposites", "exes"]],
-    //         "With plans for another!":
-    //             [0,["end_game", "old_friends", "old_friends", "opposites", "exes"]]
-    //     }
-    // },
+        }
+    }
 };
 
 let currentState = 1;
@@ -344,7 +364,7 @@ function revealMostSelectedVegetable() {
         storyImage.style.display = 'none';
         choicesContainer.style.display = 'none';
 
-        text.textContent = "We are...";
+        text.textContent = "WhatAreWe?";
         text.appendChild(img);
 
         // Share button functionality
