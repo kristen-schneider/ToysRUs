@@ -1,6 +1,6 @@
 const personalities = {
     "ENEMIES": 0, // Mean, It's You
-    "END GAME": 0, // Roses, Duo
+    "end_game": 0, // Roses, Duo
     "Partners in Crime": 0, // Bud Like You, Teenagers
     "Confused": 0, // 1955, Convoy
     "Hermits": 0, //
