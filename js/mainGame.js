@@ -13,15 +13,15 @@ const personalities = {
 const gameData = {
     "1": {
         "text": "<3",
-        "image" : "smaller_images/homepage.png",
+        "image" : "smaller_images/terms.png",
         "choices": {
             "Agree to terms and conditions.":
                 [2,["end_game", "TWINS", "old_friends", "gorls", "squadmates", "step_brothers", "opposites", "confused", "exes"]],
         }
     },
     "2": {
-        "text": "1/20. VALENTINE'S DAY DATE\nHow do you feel about Valentine's Day?",
-        "image" : "smaller_images/homepage.png",
+        "text": "1/20: How do you feel about Valentine's Day?",
+        "image" : "smaller_images/vday1.png",
         "choices": {
             "Hate, hate, hate. Double hate. Loathe entirely.":
                 [3,["exes", "exes", "exes", "confused", "confused", "confused", "old_friends", "squadmates", "step_brothers", "opposites"]],
@@ -34,8 +34,8 @@ const gameData = {
         }
     },
     "3": {
-        "text": "2/20. VALENTINE'S DAY DATE\nWhat kind of timing are we thinking for this date?",
-        "image" : "smaller_images/homepage.png",
+        "text": "2/20: What kind of timing are we thinking for this date?",
+        "image" : "smaller_images/vday2.png",
         "choices": {
             "6AM-12PM! I love an early morning. I was thinking a sunrise activity could be nice.":
                 [4,["twins", "twins", "twins", "old_friends", "squadmates", "step_brothers", "step_brothers", "confused", "exes", "exes"]],
@@ -48,8 +48,8 @@ const gameData = {
         }
     },
     "4": {
-        "text": "3/20. VALENTINE'S DAY DATE\nWhat kind of non-food activity would you most like to do?",
-        "image" : "smaller_images/homepage.png",
+        "text": "3/20: What kind of non-food activity would you most like to do?",
+        "image" : "smaller_images/vday3.png",
         "choices": {
             "An active activity! A run, some pickle ball, a hike, etc.":
                 [5,["twins", "twins", "twins", "old_friends", "squadmates", "squadmates", "squadmates", "step_brothers", "step_brothers", "step_brothers", "confused", "confused", "confused", "exes"]],
@@ -62,8 +62,8 @@ const gameData = {
         }
     },
     "5": {
-        "text": "4/20. VALENTINE'S DAY DATE\nAnd, finally, for the food portion of the date, what are you thinking?",
-        "image" : "smaller_images/homepage.png",
+        "text": "4/20: And, finally, for the food portion of the date, what are you thinking?",
+        "image" : "smaller_images/vday4.png",
         "choices": {
             "Let's pack something for our day. I like the idea of a picnic or some snacks on-the-go.":
                 [6,["exes", "confused", "confused", "step_brothers", "step_brothers", "squadmates", "twins", "twins", "twins"]],
@@ -76,8 +76,8 @@ const gameData = {
         }
     },
     "6": {
-        "text": "5/20. FLAGS\nA green flag of YOURS is...",
-        "image" : "smaller_images/homepage.png",
+        "text": "5/20: A green flag of YOURS is...",
+        "image" : "smaller_images/important1.png",
         "choices": {
             "World famous road-trip DJ.":
                 [7,["twins", "twins", "twins", "old_friends", "gorls", "gorls", "squadmates", "exes", "exes", "exes"]],
@@ -90,8 +90,8 @@ const gameData = {
         }
     },
     "7": {
-        "text": "6/20. FLAGS\nA red flag of YOURS is...",
-        "image" : "smaller_images/homepage.png",
+        "text": "6/20: A red flag of YOURS is...",
+        "image" : "smaller_images/important2.png",
         "choices": {
             "Keeps things `in case they come in handy later.`":
                 [8,["exes", "opposites", "opposites", "opposites", "squadmates", "gorls", "gorls", "old_friends"]],
@@ -104,8 +104,8 @@ const gameData = {
         }
     },
     "8": {
-        "text": "7/20. FLAGS\nA green flag of MINE (kristen) is...",
-        "image" : "smaller_images/homepage.png",
+        "text": "7/20: A green flag of MINE (kristen) is...",
+        "image" : "smaller_images/important3.png",
         "choices": {
             "Always makes her bed in the morning.":
                 [9,["twins", "old_friends", "squadmates", "squadmates", "step_brothers", "confused", "confused", "exes"]],
@@ -118,8 +118,8 @@ const gameData = {
         }
     },
     "9": {
-        "text": "8/20. FLAGS\nA red flag of MINE (kristen) is...",
-        "image" : "smaller_images/homepage.png",
+        "text": "8/20: A red flag of MINE (kristen) is...",
+        "image" : "smaller_images/important4.png",
         "choices": {
             "Thinks pepper is `spicy`.":
                 [10,["exes", "confused", "confused", "step_brothers", "step_brothers", "squadmates", "old_friends", "end_game",]],
@@ -133,8 +133,8 @@ const gameData = {
     },
 
     "10": {
-        "text": "9/20 RAPID FIRE\nThese are all on my 'art' Pinterest Board. Pick one.",
-        "image" : "smaller_images/homepage.png",
+        "text": "9/20: These are all on my 'art' Pinterest Board. Pick one.",
+        "image" : "smaller_images/vimportant1.png",
         "choices": {
             "Tall Skinny House":
                 [11,["twins", "squadmates", "squadmates", "exes", "exes"]],
@@ -147,8 +147,8 @@ const gameData = {
         }
     },
     "11": {
-        "text": "10/20 RAPID FIRE\nPick a topic on which YOU would deliver a TED talk",
-        "image" : "smaller_images/homepage.png",
+        "text": "10/20: Pick a topic on which YOU would deliver a TED talk",
+        "image" : "smaller_images/vimportant2.png",
         "choices": {
             "Pop Culture (e.g. How Internet Memes Shape Our Understanding of Society)":
                 [12,["opposites", "opposites", "squadmates", "gorls", "gorls", "gorls"]],
@@ -161,8 +161,8 @@ const gameData = {
         }
     },
     "12": {
-        "text": "11/20 RAPID FIRE\nPick a favorite episode from The Office.",
-        "image" : "smaller_images/homepage.png",
+        "text": "11/20: Pick a favorite episode from The Office.",
+        "image" : "smaller_images/vimportant3.png",
         "choices": {
             "The one where Meredith gets hit by Michael's car, and also rabies.":
                 [13,["old_friends", "squadmates", "opposites", "confused", "confused", "confused", "exes"]],
@@ -175,8 +175,8 @@ const gameData = {
         }
     },
     "13": {
-        "text": "12/20. RAPID FIRE\nPick a state in which you would NEVER want to live.",
-        "image" : "smaller_images/homepage.png",
+        "text": "12/20: Pick a state in which you would NEVER want to live.",
+        "image" : "smaller_images/vimportant4.png",
         "choices": {
             "Massachusetts":
                 [14,["end_game", "end_game", "end_game", "gorls", "exes", "exes"]],
@@ -189,8 +189,8 @@ const gameData = {
         }
     },
     "14": {
-        "text": "13/20. THIS OR THAT\nChicago OR NYC?",
-        "image": "smaller_images/homepage.png",
+        "text": "13/20: Chicago OR NYC?",
+        "image": "smaller_images/tot1.png",
         "choices": {
             "Chicago":
                 [15,[]],
@@ -199,8 +199,8 @@ const gameData = {
         }
     },
     "15": {
-        "text": "14/20. THIS OR THAT\nSilver OR Gold?",
-        "image": "smaller_images/homepage.png",
+        "text": "14/20: Silver OR Gold?",
+        "image": "smaller_images/tot2.png",
         "choices": {
             "Silver":
                 [16,["exes", "confused", "end_game", "step_brothers", "squadmates", "opposites"]],
@@ -209,8 +209,8 @@ const gameData = {
         }
     },
     "16": {
-        "text": "15/20. THIS OR THAT\nCalvin OR HOBBS?",
-        "image": "smaller_images/homepage.png",
+        "text": "15/20: Calvin OR HOBBS?",
+        "image": "smaller_images/tot3.png",
         "choices": {
             "Calvin":
                 [17,["end_game", "twins", "exes"]],
@@ -219,8 +219,8 @@ const gameData = {
         }
     },
     "17": {
-        "text": "16/20. THIS OR THAT\nMountains OR Beach?",
-        "image": "smaller_images/homepage.png",
+        "text": "16/20: Mountains OR Beach?",
+        "image": "smaller_images/tot4.png",
         "choices": {
             "Mountains":
                 [18,["twins", "confused", "step_brothers", "squadmates", "exes"]],
@@ -229,8 +229,8 @@ const gameData = {
         }
     },
     "18": {
-        "text": "17/20. YOU FIRST\nPick our aesthetic.",
-        "image": "smaller_images/homepage.png",
+        "text": "17/20: Pick our aesthetic.",
+        "image": "smaller_images/ytm1.png",
         "choices": {
             "coastal grandmother antique dollhouse":
                 [19,["gorls", "gorls", "twins", "twins"]],
@@ -243,8 +243,8 @@ const gameData = {
         }
     },
     "19": {
-        "text": "18/20. YOU FIRST\nPick our home.",
-        "image": "smaller_images/homepage.png",
+        "text": "18/20: Pick our home.",
+        "image": "smaller_images/ytm2.png",
         "choices": {
             "The (Chuck) Bass NYC apartment":
                 [20,["end_game", "gorls", "opposites", "opposites", "opposites", "confused", "exes", "exes", "exes"]],
@@ -258,8 +258,8 @@ const gameData = {
         }
     },
     "20": {
-        "text": "19/20. YOU FIRST\nPick our Song.",
-        "image": "smaller_images/homepage.png",
+        "text": "19/20: Pick our Song.",
+        "image": "smaller_images/ytm3.png",
         "choices": {
             "The Climb // Miley Cyrus":
                 [21,["step_brothers", "twins", "squadmates", "gorls", "gorls", "gorls", "end_game"]],
@@ -273,8 +273,8 @@ const gameData = {
         }
     },
     "21": {
-        "text": "20/20. YOU FIRST\nPick a couples costume for us to wear on Halloween.",
-        "image": "smaller_images/homepage.png",
+        "text": "20/20: Pick a couples costume for us to wear on Halloween.",
+        "image": "smaller_images/ytm4.png",
         "choices": {
             "Peanut Butter & Jelly":
                 [0,["old_friends", "gorls", "gorls", "gorls", "opposites", "opposites", "confused", "exes", "exes", "exes"]],
