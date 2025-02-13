@@ -123,7 +123,7 @@ const gameData = {
         "choices": {
             "Thinks pepper is `spicy`.":
                 [10,["exes", "confused", "confused", "step_brothers", "step_brothers", "squadmates", "old_friends", "end_game",]],
-            "Doesn't water her houseplants because it gives the home a 'Time Burton' vibe.":
+            "Doesn't water her houseplants because it gives the home a 'Tim Burton' vibe.":
                 [10,["exes", "squadmates", "old_friends", "twins", "twins", "twins", "end_game"]],
             "Orders a drink/coffee/tea for the vibes, but only takes 3 sips.":
                 [10,["confused", "opposites", "opposites", "step_brothers", "squadmates", "gorls", "gorls", "gorls"]],
